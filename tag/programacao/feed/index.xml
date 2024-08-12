@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arquivos programacao - SAMIR MARTINS</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Blog Pessoal</description>
+	<lastBuildDate>Thu, 25 Aug 2022 19:22:03 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2021/01/cropped-favicon-32x32.png</url>
+	<title>Arquivos programacao - SAMIR MARTINS</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>#9 &#8211; Programe-se: the Zen of Life</title>
+		<link>./../../../2021/07/17/programe-se/index.html</link>
+					<comments>./../../../2021/07/17/programe-se/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Sat, 17 Jul 2021 18:46:10 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[Sem categoria]]></category>
+		<category><![CDATA[desenvolvimento pessoal]]></category>
+		<category><![CDATA[logica]]></category>
+		<category><![CDATA[programacao]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[razao]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=390</guid>
+
+					<description><![CDATA[<p>Do porque você deveria aprender a programar (ou, se você já sabe, colocar em prática) De outros posts deste blog (como este [&#8230;]</p>
+<p>O post <a href="./../../../2021/07/17/programe-se/index.html">#9 &#8211; Programe-se: the Zen of Life</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="390" class="elementor elementor-390">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-9b8e7c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b8e7c3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f829d7" data-id="2f829d7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9c730a8 elementor-widget elementor-widget-heading" data-id="9c730a8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-medium">Do porque você deveria aprender a programar (ou, se você já sabe, colocar em prática)</h3>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a6bb1d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a6bb1d3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d798df1" data-id="d798df1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d0225d5 elementor-widget elementor-widget-text-editor" data-id="d0225d5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>De outros posts deste blog (como <a href="./../../../2021/01/13/a-matematica-da-vida-ou-quando-menos-e-mais/index.html" target="_blank" rel="noopener">este</a> e <a href="./../../../2020/08/30/4-escolhas-custo-afundado/index.html" target="_blank" rel="noopener">este</a>), é possível perceber que eu, apesar de ser uma pessoa emotiva, acredito na razão para tomada de decisões. Apesar disso, são bem conhecidos na ciência os momentos em que temos o conhecido <a href="https://pt.wikipedia.org/wiki/Sequestro_emocional" target="_blank" rel="noopener">sequestro da amígdala</a>: nestes instantes, <b>nenhuma razão </b>é utilizada para a tomada de importantes decisões. Em virtude destes fatos, optei por escrever sobre algo que muito me motiva e torna a vida mais leve (e racional): programação de computadores.&nbsp;</p>
+<p>O tema pode parecer espinhoso em um primeiro relance e afastar o leitor que desconhece o assunto. De fato, houve uma época em que programar computadores era tarefa para poucos (a época dos <a href="https://memoriainfo.furg.br/acervo/cartoes" target="_blank" rel="noopener">cartões perfurados</a>&#8230;.), mas esta data se encontra cada vez mais longínqua, fazendo com que a atividade citada se torne algo cada vez mais simples, funcional, útil e prazerosa.</p>
+<p>Eu obtive o livre acesso aos computadores aos 18 anos, no outuno de 2006, quando iniciei minha graduação &#8211; eu não tinha um pc até então. Meu primeiro contato com programação se deu nesta mesma data, utilizando o já obsoleto <a href="https://pt.wikipedia.org/wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)">Pascal</a> (<a href="https://pt.wikipedia.org/wiki/Pascal_Zim!">PascalZim</a>), no laboratório de computadores da UFSJ. Esta experiência, apesar de simplificada, foi transformadora, pois ali eu começava a entender como computadores &#8220;conversavam&#8221; e, o mais importante, que qualquer pessoa minimamente dedicada poderia aprender a <b>falar uma nova língua</b>. Ao longo de minha formação tive experiências (umas curtas, outras, bem mais aprofundadas) com outras linguagens como Matlab/Scilab/Octave, C/C++/C#, Fortran, um pouco de HTML, CSS e, mais recentemente, <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a>. À par de minha questão pessoal com computadores, vamos ao que realmente importa: a tomada de decisões utilizando a parte lógica do cérebro humano, e como programação de computadores se encaixa neste contexto. </p>
+<p>Em termos menos rígidos, os computadores conversam entre si utilizando <b>comandos lógicos</b> e seguindo <b>ordens previamente estabelecidas por alguém</b> (usuário), tomando decisões de forma completamente racional, sem nenhuma influência emocional. Em termos simplistas, seguem ordens dadas pelos programadores do tipo &#8220;<b>SE</b> a vida lhe apresentar limões, <b>FAÇA </b>uma limonada&#8221;, ou ainda &#8220;<b>ENQUANTO </b>você não alcançar seu objetivo, <b>TRABALHE </b>duro&#8221;. No final de contas, é executado precisamente o que se foi planejado, independente de emoções ao longo do processo. Emoções estas, portanto, não têm lugar na execução das instruções previamente apresentadas ao computador (quem nunca conheceu um colega que ia mal nas avaliações por ter ficado nervoso durante a mesma?).</p>
+<p>Para detalhar um pouco mais todo este tema, vou dividir o assunto em três partes: i) do mito &#8220;programar é coisa de NERD&#8221;, ou &#8220;isto não é para mim; ii) das aplicações práticas e cotidianas envolvendo programação de computadores e por fim; iii) porque você deveria considerar Python como seu primeiro (ou próximo) ambiente de programação (pelo menos até a data de escrita deste artigo).</p>
+<p></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-02fed77 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="02fed77" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-88a1539 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88a1539" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0149609" data-id="0149609" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-45a64fc elementor-widget elementor-widget-text-editor" data-id="45a64fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><strong>1- DO MITO: &#8220;PROGRAMAR É COISA DE NERD&#8221;, OU &#8220;ISTO NÃO É PARA MIM&#8221;</strong></p>
+<p>&nbsp;Começo esta seção com uma notícia do<a href="https://g1.globo.com/economia/tecnologia/noticia/2021/03/09/como-brasileiro-virou-programador-usando-celulares-quebrados.ghtml"> garoto que aprendeu a programar utilizando celulares quebrados</a> (ele não tinha um pc). É óbvio que não se espera este tipo de heroísmo de toda a população, mas esta chocante reportagem nos mostra que sim: <b>WHERE THERE IS A WILL, THERE IS A WAY (onde há uma vontade, há um caminho).&nbsp; </b>Ou encontramos <b>um caminho</b> para atingir o objetivo, ou <b>uma desculpa</b> para não perseguí-lo. A escolha é de cada um.<b><br></b></p>
+<p>Na prática, o que acontece é que a nossa mente, na tentativa (as vezes bem sucedida) de poupar energia para momentos mais críticos, cria argumentos auto-sabotantes como <b>&#8220;é coisa de nerd&#8221;</b>, <b>&#8220;isto não é para mim&#8221;</b>, <b>&#8220;precisaria ter mais tempo&#8221;</b> ou ainda <b>&#8220;precisaria de um computador excelente&#8221;</b>. Saiba, portanto, que estas e outras desculpas podem estar tentando te desviando de sua rota de desejo (caminho mais duro, é verdade), e encaminhando-o ao caminho de menor resistência, o qual gera pouco ou nenhum fruto.</p>
+<p>Outra falácia que comumente encontramos é que é necessário comprar cursos caros para aprender a programar. Isto não é verdade. Há, no youtube, longos cursos gratuitos (e de muita qualidade) sobre diferentes linguagens de programação, que não possuem nenhum pré-requisito para início. Portanto, sim, isto é para você: <b>basta você desejar! </b>Como exemplos, <a href="https://www.youtube.com/results?search_query=curso+python+completo" target="_blank" rel="noopener">veja este link </a>onde você encontra cursos gratuitos com aulas entre 10 minutos e 12 horas (ou mais), ensinando o primeiro passo da linguagem Python.<b><br></b></p>
+<p><b>&nbsp;</b></p>
+<p><strong>2- DAS APLICAÇÕES PRÁTICAS E COTIDIANAS ENVOLVENDO PROGRAMAÇÃO DE COMPUTADORES<br></strong></p>
+<p>É possível encontrar aplicações em programação para diferentes contextos de nosso cotidiano. Quem não gostaria de poder analisar a tendência de preços do mercado imobiliário, antes de efetuar (ou não) a compra de uma casa? Ou, ainda, qual advogado não gostaria de tomar a decisão de assumir ou não um determinado caso judicial baseando-se na <b>propobabilidade </b>de vencer a causa e no respectivo <b>retorno financeiro</b>, computados a partir de um sistema especialista tipo Fuzzy? A boa notícia é que tudo isto é possível, e o custo envolvido para tal é o tempo necessário para que você desenvolva o que deseja utilizar.</p>
+<p>Nesta parte do texto vou buscar ser mais direto, indicando aplicações práticas (em Python, pelas razões que apresento no item 3) que podem tornar tomadas de decisões racionais, bem como contribuir para a compreensão de diferentes processos, para profissionais de distintas áreas. Obviamente, o objetivo aqui não é, nem de longe, esgotar o assunto. Ressalto que se você se encontra perante um problema que envolva tomada de decisões, provavelmente encontrará uma forma de utilizar computadores para auxiliá-lo (basta ser criativo e&#8230;. usar o <a href="https://pt.stackoverflow.com/" target="_blank" rel="noopener">stackoverflow</a>).<strong><strong> <br></strong></strong></p>
+<p><strong><strong>Exemplos de aplicações: <br></strong></strong></p>
+<p><u><i>2.1 Tomadas de decisão baseada em sistemas especialistas (Fuzzy) &#8211; <a href="https://github.com/scikit-fuzzy/scikit-fuzzy" target="_blank" rel="noopener">Scikit Fuzzy</a>:<br></i></u></p>
+<p><i><u>2.2 Aplicações em Engenharias &#8211; <a href="https://www.scipy.org/">SciPy</a></u></i></p>
+<p><i><u>2.3 Projeto e implementação de filtros digitais (inclusive com aplicações a sinais de áudio e processamento de sinais) &#8211; <a href="https://github.com/chipmuenk/pyfda" target="_blank" rel="noopener">PyFDA</a></u></i></p>
+<p><i><u>2.4 Aplicações do tipo &#8220;plug n play&#8221; para ciên</u></i><i><u>cia de dados &#8211; <a href="https://scikit-learn.org/stable/" target="_blank" rel="noopener">SciKitLearn</a><br></u></i></p>
+<p><u>2.5. Análise e visualização de dados &#8211; <a href="https://pandas.pydata.org/">Pandas</a> e <a href="https://matplotlib.org/" target="_blank" rel="noopener">Matplotlib</a></u></p>
+<p><u>2.6 Deep Learning e Redes Neurais &#8211; <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a>, <a href="https://keras.io/" target="_blank" rel="noopener">Keras</a>, <a href="https://www.tensorflow.org/?hl=pt-br" target="_blank" rel="noopener">TensorFlow</a><br></u></p>
+<p><u>2.7 Análise e modelagem de séries te</u><u>mporais estilo &#8220;plug n play&#8221; &#8211; <a href="http://sysidentpy.org/" target="_blank" rel="noopener">SysIdentPy</a> &#8211; <b><i>RECOMENDADO</i> </b>(descubra o porque no site da biblioteca =])</u></p>
+<p><u>2.8 Análises estatísticas de mercados financeiros nacionais e internacionais (ações, Forex, criptomoedas, índices/ETFs, &#8230;) &#8211; <a href="https://pypi.org/project/MetaTrader5/" target="_blank" rel="noopener">API Python MT5</a></u></p>
+<p><u><i>2.9 Aplicações em biomedicina como classificação de estado dos olhos por meio de EEG &#8211; <a href="https://ufsj.edu.br/portal2-repositorio/File/ppgel/225-2020-02-17-DissertacaoWilsonLacerda.pdf">Link aqui</a></i></u></p>
+<p>Bacana, não é mesmo? E não pára por aí&#8230; este universo te levará até onde for a sua criatividade, e como sabemos, não existe um limite bem definido para esta.</p>
+<p></p>
+<p><strong><strong>3- PORQUE VOCÊ DEVERIA CONSIDERAR PYTHON COMO SEU PRIMEIRO (OU PRÓXIMO) AMBIENTE DE PROGRAMAÇÃO</strong></strong></p>
+<div>Python é uma linguagem de programação de alto nível, projetada com o propósito de priorizar a legibilidade do código e facilidade de uso. Portanto, pela concepção da mesma, é um bom ponto de partida para quem ainda não tem nenhum conhecimento na área (veja o &#8220;The Zen of Python&#8221; no CONTEÚDO ADICIONAL deste post).</div>
+<div>&nbsp;</div>
+<div>Apesar de seu foco não ser em velocidade, o que ele oferece supre a grande maioria das aplicações para um usuário médio. Caso você precise de mais recursos em termos de velocidade, você pode verificar ferramentas como CuPy, Numba, Multithreading e Multiprocessing que permitem a execução de programas ali desenvolvidos com um desempenho considerável, seja por processamento paralelo ou utilizando o processamento via GPU. <br></div>
+<div>&nbsp;</div>
+<div>Algumas vantagens que vejo nesta linguagem:</div>
+<div>&nbsp;</div>
+<div>i) Desenvolvimento comunitário e aberto da linguagem &#8211; você não paga nada para usar, inclusive a nível comercial;</div>
+<div>ii) Ampla gama de bibliotecas disponibilizadas gratuitamente;</div>
+<div>iii) Facilidade de utilização da linguagem, inclusive para aplicações mais avançadas;</div>
+<div>iv) Comunidade muito ativa, o que faz com que problemas cotidianos sejam resolvidos rapidamente;</div>
+<div>v) Portabilidade e possibilidade de execução do código em diferentes sistemas.</div>
+<div>&nbsp;</div>
+<div>Se você ainda não conhece, recomendo que dê uma olhada no <a href="https://www.anaconda.com/">Anaconda </a>(e no editor Spyder &#8211; já integrado com este pacote). É um excelente ponto de partida para quem deseja programar em Python.</div>
+<div>&nbsp;</div>
+<div>E, para finalizar, deixo uma imagem que ilustra o interesse da comunidade na linguagem, bem como seu <b>crescimento de 400</b>% em buscas ao longo de cerca de dez anos (<i><u>fonte: https://stackoverflow.blog/2021/07/14/getting-started-with-python</u></i>)</div>
+<div>&nbsp;</div>
+<div>&nbsp;<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-474" src="./../../../wp-content/uploads/2021/07/pythonsover.png" alt="" width="586" height="391" srcset="./../../../wp-content/uploads/2021/07/pythonsover.png 586w, ./../../../wp-content/uploads/2021/07/pythonsover-300x200.png 300w, ./../../../wp-content/uploads/2021/07/pythonsover-230x153.png 230w, ./../../../wp-content/uploads/2021/07/pythonsover-350x234.png 350w, ./../../../wp-content/uploads/2021/07/pythonsover-480x320.png 480w" sizes="(max-width: 586px) 100vw, 586px" /><br></strong></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>É isto! Agradeço pelo tempo que dedicou à esta leitura, e espero que a mesma tenha lhe sido proveitosa!</div><div><b><br></b></div><div><b>Programe-se: tome decisões objetivas e racionais. E <u>seja feliz</u>!</b></div>
+<div>&nbsp;</div>
+<div>Um abraço,</div>
+<div>&nbsp;</div>
+<div>Samir.</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-af6a733 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="af6a733" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-02fcee7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="02fcee7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba1e468" data-id="ba1e468" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9023035 elementor-widget elementor-widget-heading" data-id="9023035" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CONTEÚDO ADICIONAL</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-150be86 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="150be86" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bd0659" data-id="2bd0659" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4a0bc64 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4a0bc64" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9bc5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9bc5b5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e84d8be" data-id="e84d8be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-dd2eb42 elementor-widget elementor-widget-text-editor" data-id="dd2eb42" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Músicas para ouvir enquanto se lê o artigo:</b></p><p><b> </b></p><ul><li><i>Travelers of Time </i>&#8211; Angra</li><li><i>Emerald Sword</i> &#8211; Rhapsody of Fire</li><li><i>Mirror of Delusion</i> e também <i>Bonfire of Vanities </i>&#8211; Edu Falaschi</li><li>Streets of Florence  &#8211; Edu Falaschi</li></ul><p><b>Livros e textos que inspiraram o artigo:</b></p><ul><li>The Zen of Python &#8211; Execute <em>import this </em> em qualquer <a href="https://replit.com/languages/python3" target="_blank" rel="noopener">compilador online</a> (basta digitar e clicar em &#8220;Run&#8221;)</li><li>Data Science from Scratch: Joel Grus</li></ul><p><b>Indicação de jogo relacionado ao tema</b></p><ul><li>Final Fantasy X &#8211; Para quem não esquece a cidade que nunca dorme: Zanarkand!</li></ul><p><b>Filmes relacionados ao artigo</b></p><ul><li>O Jogo da imitação</li><li>O dilema das redes</li><li>Matrix (novamente aparecendo por aqui &#8211; todos eles!)</li></ul>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../../../2021/07/17/programe-se/index.html">#9 &#8211; Programe-se: the Zen of Life</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2021/07/17/programe-se/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

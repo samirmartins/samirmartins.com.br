@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arquivos national-instruments - SAMIR MARTINS</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Blog Pessoal</description>
+	<lastBuildDate>Fri, 31 Mar 2023 15:20:56 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2021/01/cropped-favicon-32x32.png</url>
+	<title>Arquivos national-instruments - SAMIR MARTINS</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</title>
+		<link>./../../../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html</link>
+					<comments>./../../../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Fri, 31 Mar 2023 15:19:48 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[#python]]></category>
+		<category><![CDATA[arduino]]></category>
+		<category><![CDATA[data-acquisition]]></category>
+		<category><![CDATA[national-instruments]]></category>
+		<category><![CDATA[nidaq]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=921</guid>
+
+					<description><![CDATA[<p>Prezados, recentemente tornei público o PYDAQ &#8211; Data Acquisition and Experimental Analysis with Python. PYDAQ é uma interface gráfica em Python que [&#8230;]</p>
+<p>O post <a href="./../../../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html">#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="921" class="elementor elementor-921">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-f6cd7d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f6cd7d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12998ef" data-id="12998ef" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-978cba7 elementor-widget elementor-widget-text-editor" data-id="978cba7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Prezados,<br><br>recentemente tornei público o PYDAQ &#8211; Data Acquisition and Experimental Analysis with Python.<br><br>PYDAQ é uma interface gráfica em Python que tem, no momento, as seguintes funcionalidades:<br><br>1. Aquisição de sinais, com visualização em tempo real.<br>2. Envio de sinais, com visualização em tempo real.<br>3. Teste de resposta ao degrau, com visualização em tempo real.<br><br>O mesmo funciona tanto com placas de aquisição de dados da National Instruments (NIDAQ), como com Arduinos. A ideia é que este pacote sirva como uma alternativa para explorar, em tempo real, as brilhantes ferramentas e pacotes que a linguagem possui (sysidentpy, pytorch, scikit-learn, &#8230;), utilizando dados experimentalmente coletados.<br><br>Eu elaborei um manual para uso do mesmo (em inglês, contendo notebooks com exemplos), e o mesmo se encontra disponível no link:<br><br>https://samirmartins.github.io/pydaq/<br><br>Reparem que os exemplos de execução são EXTREMAMENTE SIMPLES, e qualquer um consegue coletar/enviar dados/fazer experimentos, mesmo sem saber programar em Python.<br><br>O código é aberto e qualquer interessado pode fazer contribuições. O link para o Github do mesmo é:<br><br>https://github.com/samirmartins/pydaq<br><br>Se desejarem usar/divulgar/enviar para seus alunos, fiquem à vontade. E estou à disposição em caso de dúvidas.<br><br>&#8212;<br>Samir Angelo Milani Martins</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../../../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html">#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SAMIR MARTINS</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Blog Pessoal</description>
+	<lastBuildDate>Fri, 31 Mar 2023 15:20:56 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>./../wp-content/uploads/2021/01/cropped-favicon-32x32.png</url>
+	<title>SAMIR MARTINS</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</title>
+		<link>./../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html</link>
+					<comments>./../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Fri, 31 Mar 2023 15:19:48 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[#python]]></category>
+		<category><![CDATA[arduino]]></category>
+		<category><![CDATA[data-acquisition]]></category>
+		<category><![CDATA[national-instruments]]></category>
+		<category><![CDATA[nidaq]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../index.html?p=921</guid>
+
+					<description><![CDATA[<p>Prezados, recentemente tornei público o PYDAQ &#8211; Data Acquisition and Experimental Analysis with Python. PYDAQ é uma interface gráfica em Python que [&#8230;]</p>
+<p>O post <a href="./../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html">#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="921" class="elementor elementor-921">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-f6cd7d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f6cd7d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12998ef" data-id="12998ef" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-978cba7 elementor-widget elementor-widget-text-editor" data-id="978cba7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Prezados,<br><br>recentemente tornei público o PYDAQ &#8211; Data Acquisition and Experimental Analysis with Python.<br><br>PYDAQ é uma interface gráfica em Python que tem, no momento, as seguintes funcionalidades:<br><br>1. Aquisição de sinais, com visualização em tempo real.<br>2. Envio de sinais, com visualização em tempo real.<br>3. Teste de resposta ao degrau, com visualização em tempo real.<br><br>O mesmo funciona tanto com placas de aquisição de dados da National Instruments (NIDAQ), como com Arduinos. A ideia é que este pacote sirva como uma alternativa para explorar, em tempo real, as brilhantes ferramentas e pacotes que a linguagem possui (sysidentpy, pytorch, scikit-learn, &#8230;), utilizando dados experimentalmente coletados.<br><br>Eu elaborei um manual para uso do mesmo (em inglês, contendo notebooks com exemplos), e o mesmo se encontra disponível no link:<br><br>https://samirmartins.github.io/pydaq/<br><br>Reparem que os exemplos de execução são EXTREMAMENTE SIMPLES, e qualquer um consegue coletar/enviar dados/fazer experimentos, mesmo sem saber programar em Python.<br><br>O código é aberto e qualquer interessado pode fazer contribuições. O link para o Github do mesmo é:<br><br>https://github.com/samirmartins/pydaq<br><br>Se desejarem usar/divulgar/enviar para seus alunos, fiquem à vontade. E estou à disposição em caso de dúvidas.<br><br>&#8212;<br>Samir Angelo Milani Martins</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/index.html">#18 &#8211; PYDAQ &#8211; Aquisição de Dados e Análise Experimental com Python</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/03/31/18-pydaq-aquisicao-de-dados-e-analise-experimental-com-python/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#17 &#8211; Definição de Sucesso &#8211; Como saber se você &#8220;chegou lá&#8221; (e o que fazer depois disso)</title>
+		<link>./../2023/02/23/17-definicao-de-sucesso-como-saber-se-voce-chegou-la-e-o-que-fazer-depois-disso/index.html</link>
+					<comments>./../2023/02/23/17-definicao-de-sucesso-como-saber-se-voce-chegou-la-e-o-que-fazer-depois-disso/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Thu, 23 Feb 2023 14:02:30 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[#definicaodesucesso]]></category>
+		<category><![CDATA[#desenvolvimentopessoal]]></category>
+		<category><![CDATA[#sucesso]]></category>
+		<category><![CDATA[#taleb]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../index.html?p=857</guid>
+
+					<description><![CDATA[<p>Miguel, 30 anos. Empresário do ramo da aviação civil, acumula milhas e dinheiro, que há muito não cabe mais no pote folheado [&#8230;]</p>
+<p>O post <a href="./../2023/02/23/17-definicao-de-sucesso-como-saber-se-voce-chegou-la-e-o-que-fazer-depois-disso/index.html">#17 &#8211; Definição de Sucesso &#8211; Como saber se você &#8220;chegou lá&#8221; (e o que fazer depois disso)</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="857" class="elementor elementor-857">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-97996f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97996f0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-377f6ad" data-id="377f6ad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3c15659 elementor-widget elementor-widget-text-editor" data-id="3c15659" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: right;">Miguel, 30 anos. Empresário do ramo da aviação civil, acumula milhas e dinheiro, que há muito não cabe mais no pote folheado à ouro, herança de seu bisavô. Joaquim, de mesma idade, acaba de ter seu primeiro mês positivo em seu empreendimento, um Café-brechó, que até aquele momento lhe custou todas as suas reservas de uma vida de trabalho. Dado o prolegômeno, aponto as questões que nortearão o texto a seguir:</p><p>1. Miguel é um homem de sucesso? E Joaquim? </p><p>2. É possível medir o sucesso de uma pessoa? Se sim, com qual régua faço isso?</p><p>3. Podemos  comparar o sucesso de dois indivíduos? Se sim, como?</p><p>Se você acompanha meus textos mais antigos, é sabida minha admiração pelo trabalho e obra de Nassim N. Taleb (veja meus comentários sobre seus livros <a href="./../livros-e-analises/index.html">aqui</a>), a quem abro espaço para endereçar estas perguntas:</p><p><strong>&#8220;There is a single definition of success. Look at yourself in a mirror in the evening and wonder if you disappoint the person you were at 18, right before people get corrupted by life. Let him (or her) be the only judge, not your reputation, not your wealth, not your standing in the community, not the decorations on your lapel. If you do not feel ashamed, then you are successful.&#8221;</strong></p><p>ou em tradução livre: <strong><br /></strong></p><p><strong>&#8220;Existe uma única definição de sucesso. Olhe-se no espelho à noite e se pergunte se você desapontou a pessoa que era aos 18 anos, pouco antes de as pessoas serem corrompidas pela vida. Deixe que ele (ou ela) seja O ÚNICO JUIZ, não sua reputação, não sua riqueza, não sua posição na comunidade, não as condecorações em sua lapela. Se você não se sentir envergonhado, então você é bem-sucedido.&#8221;<br /></strong></p><p>O vídeo com o discurso completo pode ser encontrado no link abaixo:</p><p><iframe title="Taleb Delivers Commencement Speech at American University of Beirut 2016" width="1170" height="658" src="https://www.youtube.com/embed/Fzmr3urk28I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p><p><strong> </strong></p><p>Ninguém deve usar a própria régua para medir o sucesso alheio. Em dualidade, você não deve usar a régua do vizinho para medir o seu sucesso. Pouco importa se o vizinho tem um carro importado, se o seu fusca orgulharia o seu eu do passado. Nada importam as viagens internacionais daquele colega que vive postando nas redes sociais, pois a sua realidade e história é única, e somente quantificável por si. Entre erros e acertos, o que importa é o bom e velho <em>Memento Mori &#8211; Memento Vivere</em> (link com um texto sobre o tema <a href="./../2020/07/15/memento-mori/index.html">aqui</a>), e em como você olhará para como você viveu a sua vida em instantes que antecederão a sua morte.</p><p> </p><p>Tendo a definição de sucesso, você pode se perguntar: &#8220;Tá bom, sob a minha métrica, eu me considere bem (ou mal) sucedido. E depois disso?&#8221;</p><p>Em minha idade atual (35 anos), adiciono uma nova questão, para dar uma visão focal a esta questão:</p><p>&#8220;O que fazer para que o seu eu de 75 anos sinta orgulho em ter o seu eu de hoje como filho?&#8221;</p><p>A resposta a esta pergunta pode nortear as decisões a cada momento os quais, quando se compõem com os anos, definirão o destino do Samir de 75 anos (assumindo que eu chegarei lá&#8230;).</p><p>Retomando às perguntas iniciais deste texto, vamos ao gabarito:</p><p>1. Somente eles são capazes de mensurar, com a própria régua, se são ou não bem sucedidos. Cada um viveu uma história completamente diferente, com princípios e propósitos gerados a partir de uma experiência familiar e social única.</p><p>2. À minha ótica, a própria pessoa é a única capaz de mensurar o seu sucesso. Para isto, deve responder às questões levantadas neste texto, quais são: i) O seu eu de 18 anos se orgulharia de seu eu de agora? ii) O seu eu mais velho (75 anos) sentiria orgulho em ter você como filho? Se a sua resposta for sim para as duas questões, é provável que você possa se considerar uma pessoa bem sucedida.</p><p>3. Não podemos. Como já explicitei acima, a condição inicial de cada um é diferente. O ponto de partida não é igual. Cada indivíduo inicia sua vida a uma km/h, uns em percursos retilíneos, outros em percursos curvos e com severos obstáculos. Qualquer tentativa de comparação é injusta, e deve ser evitada, sob pena de mal julgamento de fatores desconhecidos.</p><p>Sendo você, à sua métrica, bem sucedido ou não, importa mais o que você fará com sua situação atual, a fim de orgulhar o seu eu da terceira idade. Não enterrar talentos é uma virtude tão importante quanto o próprio talento em si, e cabe a cada um de nós direcionar ao bem comum aquilo que nos foi dado. E, caso você se sinta envergonhado perante o seu eu de 18 anos, saiba que ainda há tempo de sobra para tornar orgulho sua versão de 75 anos, desde que a mudança comece a partir de hoje. Compare-se a si mesmo, sempre. E tenha sempre o anseio de se transformar em relação ao seu eu do dia anterior. Transformações machucam tanto quanto engrandecem, e como somos anti-frágeis (maiores informações <a href="./../2020/07/26/antifragilidade-exerciciosfisicos/index.html">aqui</a>), não devemos temer a dor, mas sim procurar este caminho.</p><p style="text-align: right;"><strong>&#8220;Time is never time at all </strong><br /><strong>You can never ever leave </strong><br /><strong>Without leaving a piece of youth&#8221;</strong></p><p style="text-align: right;"><strong>(The Smashing Pumpkings)<br /></strong></p><p style="text-align: left;">Samir Martins</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-97563cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97563cc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c70b1a" data-id="5c70b1a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2094255 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2094255" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-08b0527 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="08b0527" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-debc18c" data-id="debc18c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1baea38 elementor-widget elementor-widget-heading" data-id="1baea38" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CONTEÚDO ADICIONAL</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c47a961 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c47a961" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-95e8de1" data-id="95e8de1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4a2283c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4a2283c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d464d7b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d464d7b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-94f7129" data-id="94f7129" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4711944 elementor-widget elementor-widget-text-editor" data-id="4711944" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<section data-id="97868df" data-element_type="section"><div><div><div data-id="416d126" data-element_type="column"><div><div><div data-id="a98bd6c" data-element_type="widget" data-widget_type="text-editor.default"><div><div><section data-id="b396fa5" data-element_type="section"><div><div><div data-id="d281b0e" data-element_type="column"><div><div><div data-id="0ee8d69" data-element_type="widget" data-widget_type="text-editor.default"><div><div><p><strong>Músicas para ouvir enquanto se lê o artigo:</strong></p><ul><li>Under Pressure (Queen)</li><li>The Last Words (Tuatha de Danann)</li><li>Tonight, Tonight (The Smashing Pumpkings)</li></ul><div> </div><p><strong>Livros e textos que inspiraram o artigo:</strong></p><ul><li>Todos os livros de Nassim Taleb</li><li>Never Finished: Unshackle Your Mind and Win the War Within (David Goggins)</li><li>A revolução dos bichos &#8211; George Orwell</li></ul></div><div><p><strong>Indicações de jogos sobre o assunto</strong></p><ul><li>Record of Lodoss War-Deedlit in Wonder Labyrinth</li><li>The Witcher 2 &#8211; Assassins of Kings</li></ul></div></div></div></div></div></div></div></div></section></div></div></div></div></div></div></div></div></section>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2023/02/23/17-definicao-de-sucesso-como-saber-se-voce-chegou-la-e-o-que-fazer-depois-disso/index.html">#17 &#8211; Definição de Sucesso &#8211; Como saber se você &#8220;chegou lá&#8221; (e o que fazer depois disso)</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/02/23/17-definicao-de-sucesso-como-saber-se-voce-chegou-la-e-o-que-fazer-depois-disso/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#16 &#8211; [Atualização FOX] &#8211; Indicadores de Momentum</title>
+		<link>./../2022/11/17/16-atualizacao-fox-indicadores-de-momentum/index.html</link>
+					<comments>./../2022/11/17/16-atualizacao-fox-indicadores-de-momentum/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Thu, 17 Nov 2022 12:43:01 +0000</pubDate>
+				<category><![CDATA[Sem categoria]]></category>
+		<guid isPermaLink="false">./../index.html?p=834</guid>
+
+					<description><![CDATA[<p>A partir desta data (17/11/2022) indicadores de MOMENTUM encontram-se implementados no Fox &#8211; A Link to the Price, conforme pode ser visto [&#8230;]</p>
+<p>O post <a href="./../2022/11/17/16-atualizacao-fox-indicadores-de-momentum/index.html">#16 &#8211; [Atualização FOX] &#8211; Indicadores de Momentum</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="834" class="elementor elementor-834">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-a4fce34 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a4fce34" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4dbc8a7" data-id="4dbc8a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3769a7e elementor-widget elementor-widget-text-editor" data-id="3769a7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A partir desta data (17/11/2022) indicadores de MOMENTUM encontram-se implementados no Fox &#8211; A Link to the Price, conforme pode ser visto nos prints desta postagem. Dentre os indicadores implementados, temos:</p><p>RSI &#8211; Relative Strengh Index<br />Stoch RSI &#8211; Stochastic RSI <br />Stoch Osc &#8211; Stochastic Oscillator<br />TSI &#8211; True Strenght Index <br />AO &#8211; Awesome Oscillator<br />PPO &#8211; Percentage Price Oscillator <br />ROC &#8211; Rate of Change</p><p>Sua forma de uso pode ser vista nas imagens em anexo ou digitando o comando /ajuda</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4838883 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4838883" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-92b0952" data-id="92b0952" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8b0324f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b0324f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f03364a" data-id="f03364a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6be5e22 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="6be5e22" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/11/photo_1_2022-11-17_09-36-34.webp" alt="photo_1_2022-11-17_09-36-34" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/11/photo_2_2022-11-17_09-36-34.webp" alt="photo_2_2022-11-17_09-36-34" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 de 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/11/photo_3_2022-11-17_09-36-34.webp" alt="photo_3_2022-11-17_09-36-34" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 de 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/11/photo_4_2022-11-17_09-36-34.webp" alt="photo_4_2022-11-17_09-36-34" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8e46cd7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8e46cd7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-44915d5" data-id="44915d5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5348d63 elementor-widget elementor-widget-text-editor" data-id="5348d63" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Se você ainda não conhece, Fox é um robô para Telegram que realiza análises gratuitas de qualquer ativo do mercado financeiro mundial de uma forma rápida, prática e organizada. Para maiores informações, veja o vídeo tutorial no link a seguir:</p><p><iframe title="[PRÁTICO E RÁPIDO] Analise o mercado financeiro via Telegram - CRIPTOMOEDAS, NASDAQ/NYSE, FOREX, B3" width="1170" height="658" src="https://www.youtube.com/embed/rmrhDltJrR0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Se gostou, divulgue entre seus contatos! =]</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2022/11/17/16-atualizacao-fox-indicadores-de-momentum/index.html">#16 &#8211; [Atualização FOX] &#8211; Indicadores de Momentum</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/11/17/16-atualizacao-fox-indicadores-de-momentum/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</title>
+		<link>./../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html</link>
+					<comments>./../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Wed, 12 Oct 2022 22:02:33 +0000</pubDate>
+				<category><![CDATA[Metas]]></category>
+		<category><![CDATA[alinktotheprice]]></category>
+		<category><![CDATA[bot]]></category>
+		<category><![CDATA[fox]]></category>
+		<category><![CDATA[foxALinkToThePrice]]></category>
+		<category><![CDATA[priceaction]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[telegram]]></category>
+		<guid isPermaLink="false">./../index.html?p=821</guid>
+
+					<description><![CDATA[<p>A partir desta versão é possível verificar a correlação de Pearson entre diferentes ativos com o Fox por meio do comando correlacao. [&#8230;]</p>
+<p>O post <a href="./../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html">#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="821" class="elementor elementor-821">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-86f5a19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="86f5a19" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a1eabe" data-id="0a1eabe" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-965ae87 elementor-widget elementor-widget-text-editor" data-id="965ae87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A partir desta versão é possível verificar a correlação de Pearson entre diferentes ativos com o Fox por meio do comando \correlacao. Veja exemplos nos prints a seguir. </p>
+<p>Desta forma você consegue facilmente avaliar se sua carteira de investimentos está devidamente equilibrada ou se novos ajustes se fazem necessários. Interessante, certo? </p>
+<p>Nos exemplos a seguir, vemos uma correlação negativa forte entre o índice Bovespa e o Bitcoin nos últimos 100 dias. Uma correlação negativa, mas não tão intensa, também acontece entre o mesmo índice e o USDBRL (dólar/real). </p>
+<p>Na segunda imagem observamos a correlação entre algumas ações de diferentes setores: quais são suas conclusões a partir daí?</p>
+<div><br></div>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5e668ef elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5e668ef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a53d42" data-id="0a53d42" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-44ee589 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="44ee589" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/10/tela1.webp" alt="tela1" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/10/tela2.webp" alt="tela2" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e06109 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e06109" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-87a1a2a" data-id="87a1a2a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cb13b8b elementor-widget elementor-widget-text-editor" data-id="cb13b8b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div> Se você ainda não conhece o Fox &#8211; A Link to the price, não perca tempo! Acesse o link abaixo para um video tutorial sobre suas funcionalidades implementadas</div><p><iframe title="[PRÁTICO E RÁPIDO] Analise o mercado financeiro via Telegram - CRIPTOMOEDAS, NASDAQ/NYSE, FOREX, B3" width="1170" height="658" src="https://www.youtube.com/embed/rmrhDltJrR0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Compartilhe com seus contatos e siga-me em minhas redes sociais!</p><p>Linkedin: https://www.linkedin.com/in/samir-mar&#8230; <br />Instagram: https://www.instagram.com/milani.mart&#8230; <br />Twitter: https://twitter.com/MartinsSMilani <br />Github: https://github.com/samirmartins</p><p>#priceaction #foxALinkToThePrice #python #telegram #bot</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html">#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#14 Fox &#8211; A Link to the Price</title>
+		<link>./../2022/09/25/14-fox-a-link-to-the-price/index.html</link>
+					<comments>./../2022/09/25/14-fox-a-link-to-the-price/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Sun, 25 Sep 2022 19:57:19 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[acoes]]></category>
+		<category><![CDATA[analisefundamentalista]]></category>
+		<category><![CDATA[analisetecnica]]></category>
+		<category><![CDATA[criptomoedas]]></category>
+		<category><![CDATA[ibovespa]]></category>
+		<category><![CDATA[machinelearning]]></category>
+		<category><![CDATA[mercadofinanceiro]]></category>
+		<category><![CDATA[priceaction]]></category>
+		<guid isPermaLink="false">./../index.html?p=807</guid>
+
+					<description><![CDATA[<p>Olá, meu nome é Samir Martins, Eng. Eletricista, mestre e doutor em Engenharia Elétrica, com ênfase em modelagem matemática de séries temporais. [&#8230;]</p>
+<p>O post <a href="./../2022/09/25/14-fox-a-link-to-the-price/index.html">#14 Fox &#8211; A Link to the Price</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="807" class="elementor elementor-807">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-943b8d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="943b8d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-93691fc" data-id="93691fc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3bbcd7f elementor-widget elementor-widget-text-editor" data-id="3bbcd7f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">Olá, meu nome é Samir Martins, Eng. Eletricista, mestre e doutor em Engenharia Elétrica, com ênfase em modelagem matemática de séries temporais. Eu trabalho com análise de séries temporais desde o segundo semestre de 2006 (há 16 anos), e trabalho como professor universitário há quase 10 anos. <br></p><p style="text-align: left;">O motivo deste texto é que eu decidi tornar pública e gratuita algumas funcionalidades de um robô para Telegram desenvolvido por mim, de nome Fox &#8211; A Link to the Price. Este robô fornece dados para análise fundamentalista e análise técnica de ativos do mercado financeiro mundial (B3, NYSE/NASDAQ, criptomoedas e Forex) utilizando estatística, Price Action, análise técnica e machine learning. Eu desenvolvi este robô há algum tempo, mas mantinha para uso privado até a presente data. </p>
+<p>Para acessar o robô você pode usar o link abaixo:</p>
+<p><a href="https://t.me/fox_priceAction_bot">https://t.me/fox_priceAction_bot</a></p>
+<p>Ou simplesmente pesquisar por &#8220;@fox_priceAction_bot&#8221; em seu Telegram.</p><div>Veja a seguir algumas imagens do robô, bem como um videotutorial de como utilizá-lo.</div><p></p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-af96f76 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="af96f76" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0fe8dc" data-id="e0fe8dc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3d52ba5 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="3d52ba5" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/fox_webp-300x300.webp" alt="fox_a_link_to_the_price" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-19-37-142x300.jpg" alt="photo_2022-09-24_12-19-37" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-19-44-142x300.jpg" alt="photo_2022-09-24_12-19-44" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-19-49-142x300.jpg" alt="photo_2022-09-24_12-19-49" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-20-02-142x300.jpg" alt="photo_2022-09-24_12-20-02" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-20-05-142x300.jpg" alt="photo_2022-09-24_12-20-05" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../wp-content/uploads/2022/09/photo_2022-09-24_12-20-08-142x300.jpg" alt="photo_2022-09-24_12-20-08" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-fff5995 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fff5995" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6decfd" data-id="b6decfd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-42760d4 elementor-widget elementor-widget-video" data-id="42760d4" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=rmrhDltJrR0&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2022/09/25/14-fox-a-link-to-the-price/index.html">#14 Fox &#8211; A Link to the Price</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/09/25/14-fox-a-link-to-the-price/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#13 &#8211; &#8220;Imagine quem você poderia ser e mire esse alvo com determinação&#8221;</title>
+		<link>./../2022/07/19/imagine-quem-voce-poderia-ser-e-mire-esse-alvo-com-determinacao/index.html</link>
+					<comments>./../2022/07/19/imagine-quem-voce-poderia-ser-e-mire-esse-alvo-com-determinacao/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 13:00:13 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[#alemdaordem]]></category>
+		<category><![CDATA[#beyondorder]]></category>
+		<category><![CDATA[#jordanPeterson]]></category>
+		<category><![CDATA[comportamento]]></category>
+		<category><![CDATA[desenvolvimento pessoal]]></category>
+		<category><![CDATA[reflexoes]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../index.html?p=786</guid>
+
+					<description><![CDATA[<p>ALÉM DA ORDEM &#8211; MAIS 12 REGRAS PARA A VIDA &#8220;Mire em algo profundo, nobre e elevado. E, se encontrar um caminho [&#8230;]</p>
+<p>O post <a href="./../2022/07/19/imagine-quem-voce-poderia-ser-e-mire-esse-alvo-com-determinacao/index.html">#13 &#8211; &#8220;Imagine quem você poderia ser e mire esse alvo com determinação&#8221;</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="786" class="elementor elementor-786">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-b1ef88e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b1ef88e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c96dfc" data-id="1c96dfc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c0048a0 elementor-widget elementor-widget-text-editor" data-id="c0048a0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h4 style="text-align: center;"><span class="break-words"><span dir="ltr">ALÉM DA ORDEM &#8211; MAIS 12 REGRAS PARA A VIDA<br /></span></span></h4><p><span class="break-words"><span dir="ltr"> </span></span></p><p><span class="break-words"><span dir="ltr">&#8220;Mire em algo profundo, nobre e elevado. E, se encontrar um caminho melhor ao longo da jornada, mude o curso. Porém, tenha cuidado; não é fácil distinguir a mudança de trajeto da mera desistência. (Uma dica: se o novo caminho que se abrir, depois que você aprendeu o que precisava ao longo do atual, parecer mais desafiador, então pode estar razoavelmente certo de que não está se iludindo ou se traindo ao mudar de ideia.) Você estará ziguezagueando para frente. Não é a maneira mais eficiente de viajar, mas não há alternativa real, visto que seus objetivos inevitavelmente mudam durante o trajeto, à medida que você aprende o que precisa, enquanto se disciplina.</span></span></p><p>Ao longo do tempo, você acabará mudando de direção, de forma gradativa e graciosa, para mirar com cada vez mais precisão naquele minúsculo ponto, o X no mapa, o meio do alvo, o centro da cruz; para visar o valor mais elevado que puder conceber. Perseguirá um alvo que se move e se afasta; se move, pois você não tem a sabedoria para mirar na direção correta quando o faz pela primeira vez; e se afasta, pois não importa o quão perto você chegue de aperfeiçoar o que está praticando atualmente, novas perspectivas da perfeição possível se abrirão diante de você. Disciplina e transformação o levarão inexoravelmente para a frente. Com vontade e sorte, você encontrará uma história significativa e produtiva, que se aprimora com o tempo e talvez até lhe proporcione mais do que alguns momentos de satisfação e alegria. Com vontade e sorte, você será o herói dessa história, o peregrino disciplinado, o transformador criativo e o benfeitor de sua família e da sociedade em geral. Imagine quem você poderia ser e mire esse alvo com determinação.&#8221;</p><p style="text-align: right;"><strong>(Jordan B. Peterson &#8211; Além da Ordem)</strong></p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2022/07/19/imagine-quem-voce-poderia-ser-e-mire-esse-alvo-com-determinacao/index.html">#13 &#8211; &#8220;Imagine quem você poderia ser e mire esse alvo com determinação&#8221;</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/07/19/imagine-quem-voce-poderia-ser-e-mire-esse-alvo-com-determinacao/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#12 &#8211; Meia maratona &#8211; Do zero aos 21km: do porque ao como, e o que aprendi</title>
+		<link>./../2022/03/01/12-meia-maratona-do-zero-aos-21km-do-porque-ao-como-e-o-que-aprendi/index.html</link>
+					<comments>./../2022/03/01/12-meia-maratona-do-zero-aos-21km-do-porque-ao-como-e-o-que-aprendi/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Tue, 01 Mar 2022 15:03:56 +0000</pubDate>
+				<category><![CDATA[Corrida]]></category>
+		<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[corredores]]></category>
+		<category><![CDATA[corridaderua]]></category>
+		<category><![CDATA[desenvolvimento pessoal]]></category>
+		<category><![CDATA[memorias]]></category>
+		<category><![CDATA[reflexoes]]></category>
+		<category><![CDATA[runners]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../index.html?p=692</guid>
+
+					<description><![CDATA[<p>Domingo nublado, 21/11/2021, acordo cedo para correr. Esta não era uma corrida qualquer. Estava diante da principal meta que estabelecera até então: [&#8230;]</p>
+<p>O post <a href="./../2022/03/01/12-meia-maratona-do-zero-aos-21km-do-porque-ao-como-e-o-que-aprendi/index.html">#12 &#8211; Meia maratona &#8211; Do zero aos 21km: do porque ao como, e o que aprendi</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="692" class="elementor elementor-692">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-ae49d23 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ae49d23" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-03078d9" data-id="03078d9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-33705a4 elementor-widget elementor-widget-text-editor" data-id="33705a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Domingo nublado, 21/11/2021, acordo cedo para correr. Esta não era uma corrida qualquer. Estava diante da principal meta que estabelecera até então: completar, em um percurso individual, meia maratona, pois isto me prepararia para a Volta Internacional da Pampulha que se aproximava. Em frente à linha de chegada que havia perseguido por anos, me deparo com grande desânimo pré-corrida, e diversos pensamentos que buscavam me desviar de tamanho consumo energético: i) &#8220;o percurso é muito longo&#8221;; ii) &#8220;e se você se machucar?&#8221; iii) &#8220;e se seu corpo não suportar tamanha distância?&#8221; iv) &#8220;seu video-game está ali, esperando. É só jogar. v) Hoje é domingo! Segunda-feira você vai&#8230;&#8221; </p>
+<p>Estes e outros pensamentos buscavam a destituição de meu projeto, já que o cérebro basal (a parte cerebral instintiva) busca sobrevivência imediata. Ainda assim, fazendo uso do córtex pré-frontal, segui em frente com o plano previamente estabelecido e conclui a corrida. </p>
+<p>Na linha de chegada, ninguém me aguardava. Nada me esperava. A meta meia-maratona havia sido previamente estabelecida por mim, e para mim. Portanto, era exatamente assim que deveria ter sido. Como em qualquer outra meta pessoal, <b>a corrida de rua é uma &#8220;caminhada individual&#8221; em que você luta contra seus instintos primitivos. Você combate a vontade de desistir a cada passo, a cada hora, antes da corrida e nos dias que a seguem</b>. A cada dor, a cada cãibra e a cada lesão.</p>
+<p>Do outro lado da história, estão os ganhos provenientes da atividade física, como a boa disposição física para execução das tarefas cotidianas. <b>Da produção energética maximizada</b>, que facilita o raciocínio lógico (<a href="./../2020/07/26/antifragilidade-exerciciosfisicos/index.html">aqueles 20%</a> &#8230;). Do fortalecimento do <a href="./../2020/07/26/antifragilidade-exerciciosfisicos/index.html">antifrágil </a>corpo humano, que tende a ser mais longevo. Da endorfina liberada, do <b>bom humor e da prevenção e combate à depressão, e noites de sono mais tranquilas e reparadoras. </b>Da inigualável alegria da linha de chegada, a cada passo e a cada meta concluída. E o mais importante: do abraço da família ao chegar em casa. Do apoio incondicional do cônjuge, que lhe credita maiores valores do que você próprio (Érica, muito obrigado por isto! =]).</p>
+<p>Diante do exposto, ficam claras as razões pelas quais esta meta foi perseguida por mim: <b>no longo prazo os ganhos suplantam</b>, consideravelmente, eventuais riscos e sacrifícios feitos.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-896338e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="896338e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cab57ae" data-id="cab57ae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0d4f481 elementor-widget elementor-widget-heading" data-id="0d4f481" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">COMO ME PREPAREI, E O QUE APRENDI</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-46cabfb elementor-widget elementor-widget-text-editor" data-id="46cabfb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p> <strong>&#8211; A PRIMEIRA CORRIDA: UMA HISTÓRIA DE FRACASSO EM MENOS DE 2KM</strong></p><p>Comecei me preparando para uma corrida de 7.3km organizada em parte pelo meu amigo Paulo &#8211; Del Mundo Hostel. Naquele momento, <b>estava sem me exercitar fisicamente por pelo menos 6 anos,</b> de forma que não fui capaz de completar sequer 2km no primeiro treino. Frente à realidade, a primeira dúvida pairou no ar (&#8220;Será que eu conseguirei?&#8221;), a qual possuía duas respostas possíveis: i) &#8220;Não, você não consegue. ii) &#8220;Não é certo que você consiga. Mas é certo que você pode tentar. E se falhar, poderá tentar novamente em um futuro próximo&#8221;. Ao fim de contas, consegui completar a corrida, o que me deixou muito feliz.</p><p>O que aprendi com este processo é que <b>precisamos começar, e começar com metas sutis</b>. Temos a <b>tendência de sobre-estimar o que podemos fazer no curto prazo, ao passo que subestimamos nosso potencial de longo prazo.</b> Portanto, <b>comece lentamente, mas tenha planos grandiosos</b>.</p><p><strong> &#8211; DA CONSTANTE VONTADE DE DESISTIR</strong></p><p>A cada passo, literalmente, seu corpo pede para você parar a corrida. <b>Sua mente te engana</b>, dizendo que não aguenta mais tanto esforço, e que é melhor abdicar deste plano. Isto acontece também a cada início de corrida. A cada esquina, a cada km completado. A cada micro dor muscular, ao suor escorrendo pelos olhos.</p><p>Para combater este ambiente, entendo ser necessário um <b>prévio preparo mental:</b> digo a mim mesmo ao início de cada corrida: i) que compreendo que <b>a dor que enfrentarei é necessária para construção de um corpo mais forte e duradouro</b>. ii) Lembro a mim mesmo da <a href="https://www.youtube.com/watch?v=-PqNv_53hgs">regra dos 40% dos Navy Seal</a> e que, por mais que eu me esforce, ainda estarei muito longe do meu verdadeiro limite físico. iii) Digo ainda que, após as dores,<b> encontrarei a alegria da endorfina liberada, de um relaxamento físico e mental pleno.</b></p><p>Por fim, durante a corrida <b>foco sempre nos próximos 500m</b>, esquecendo-me da distância total planejada. <b>Isto me auxilia a manter o ritmo, o foco, e a não desanimar.</b> Quebro uma grande meta em pequenos objetivos, que são facilmente alcançáveis.</p><p><strong> &#8211; AMBIENTE CHUVOSO NÃO É UMA DESCULPA PARA NÃO CORRER!</strong></p><p><b>Sempre haverá uma desculpa para não fazer algo, ou um meio para fazê-lo</b>. A você, cabe a escolha. Quando me deparo com um ambiente chuvoso, me lembro da primeira coisa que faço ao chegar em casa após a corrida: tomo um banho. Desta forma, <b>qual é a diferença prática, se está chovendo ou não?</b> Você chegará sujo em casa de qualquer forma.</p><p><strong> &#8211; CALÇADOS ADEQUADOS IMPORTAM</strong></p><p>Dores nas costas, no tornozelo e no joelho podem ser amenizadas (e muitas vezes evitadas) com a utilização de um calçado adequado à corrida. Corridas são exercícios de alta intensidade aeróbica e mecânica (impactos constantes com o solo). Não negligencie o que você coloca no pé.</p><p><strong> &#8211; BUSQUE ORIENTAÇÃO PROFISSIONAL: ELAS FAZEM A DIFERENÇA</strong></p><p>É fundamental  que <b>um checkup médico</b> seja realizado previamente, pois infelizmente acontecem casos de morte entre os corredores que não se cuidam. A corrida é uma atividade que leva à uma frequência cardíaca razoavelmente próxima de sua frequência cardíaca máxima por um longo período de tempo. Em acréscimo, orientações com preparadores físicos e nutricionistas podem fazer a diferença em seu desempenho.</p><p><strong> &#8211; COMPARE-SE SOMENTE A SI MESMO</strong></p><p><b>Não se compare com outros corredores</b>. Cada um tem uma história de vida e um tempo útil para dedicar a esta paixão. <b>Cada realidade se impõe de uma maneira diferente sobre cada ser humano.</b> Deste modo, o verdadeiro desafio deve ser, sempre, vencer a si mesmo a cada dia. Vencer o melhor ritmo que você já alcançou, a maior distância que já percorreu.<b> Conceda-se ao benefício de pequenas mudanças sutis diárias, as quais farão uma enorme diferença ao longo do tempo</b>. Não desista de si, pois é sempre possível reverter a rota. É sempre possível começar com uma caminhada, e terminar em uma maratona.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9b05a54 elementor-widget elementor-widget-heading" data-id="9b05a54" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">"When you feel like giving up, remember why you held on for so long in the first place" (Autor desconhecido)</h4>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9359c6d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9359c6d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e17834f" data-id="e17834f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-efe4a57 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="efe4a57" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e154cd1 elementor-widget elementor-widget-heading" data-id="e154cd1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CONTEÚDO ADICIONAL</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8817a3c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8817a3c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0ea831a" data-id="0ea831a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-669a557 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="669a557" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-68669bb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="68669bb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-42c50dd" data-id="42c50dd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-676894f elementor-widget elementor-widget-text-editor" data-id="676894f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Imagens relacionadas ao artigo: <br /></b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5baec5d elementor-widget elementor-widget-image-gallery" data-id="5baec5d" data-element_type="widget" data-widget_type="image-gallery.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-gallery">
+			
+<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="5baec5d" data-elementor-lightbox-title="meiamaratonasamir" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NzAxLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzExXC9tZWlhbWFyYXRvbmFzYW1pci5qcGciLCJzbGlkZXNob3ciOiI1YmFlYzVkIn0%3D" href='./../wp-content/uploads/2021/11/meiamaratonasamir.jpg'><img decoding="async" width="142" height="300" src="./../wp-content/uploads/2021/11/meiamaratonasamir-142x300.jpg" class="attachment-medium size-medium" alt="" srcset="./../wp-content/uploads/2021/11/meiamaratonasamir-142x300.jpg 142w, ./../wp-content/uploads/2021/11/meiamaratonasamir-485x1024.jpg 485w, ./../wp-content/uploads/2021/11/meiamaratonasamir-230x486.jpg 230w, ./../wp-content/uploads/2021/11/meiamaratonasamir-350x739.jpg 350w, ./../wp-content/uploads/2021/11/meiamaratonasamir-480x1014.jpg 480w, ./../wp-content/uploads/2021/11/meiamaratonasamir.jpg 606w" sizes="(max-width: 142px) 100vw, 142px" /></a>
+<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="5baec5d" data-elementor-lightbox-title="pampulha" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NzEzLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzExXC9wYW1wdWxoYS5qcGciLCJzbGlkZXNob3ciOiI1YmFlYzVkIn0%3D" href='./../wp-content/uploads/2021/11/pampulha.jpg'><img decoding="async" width="142" height="300" src="./../wp-content/uploads/2021/11/pampulha-142x300.jpg" class="attachment-medium size-medium" alt="" srcset="./../wp-content/uploads/2021/11/pampulha-142x300.jpg 142w, ./../wp-content/uploads/2021/11/pampulha-485x1024.jpg 485w, ./../wp-content/uploads/2021/11/pampulha-230x486.jpg 230w, ./../wp-content/uploads/2021/11/pampulha-350x739.jpg 350w, ./../wp-content/uploads/2021/11/pampulha-480x1014.jpg 480w, ./../wp-content/uploads/2021/11/pampulha.jpg 606w" sizes="(max-width: 142px) 100vw, 142px" /></a>
+<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="5baec5d" data-elementor-lightbox-title="alipiosamir" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NzE3LCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzExXC9hbGlwaW9zYW1pci5qcGciLCJzbGlkZXNob3ciOiI1YmFlYzVkIn0%3D" href='./../wp-content/uploads/2021/11/alipiosamir.jpg'><img fetchpriority="high" decoding="async" width="224" height="300" src="./../wp-content/uploads/2021/11/alipiosamir-224x300.jpg" class="attachment-medium size-medium" alt="" srcset="./../wp-content/uploads/2021/11/alipiosamir-224x300.jpg 224w, ./../wp-content/uploads/2021/11/alipiosamir-766x1024.jpg 766w, ./../wp-content/uploads/2021/11/alipiosamir-768x1027.jpg 768w, ./../wp-content/uploads/2021/11/alipiosamir-920x1231.jpg 920w, ./../wp-content/uploads/2021/11/alipiosamir-230x308.jpg 230w, ./../wp-content/uploads/2021/11/alipiosamir-350x468.jpg 350w, ./../wp-content/uploads/2021/11/alipiosamir-480x642.jpg 480w, ./../wp-content/uploads/2021/11/alipiosamir.jpg 957w" sizes="(max-width: 224px) 100vw, 224px" /></a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7fdbdb8 elementor-widget elementor-widget-text-editor" data-id="7fdbdb8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Músicas para ouvir enquanto se lê o artigo: <br /></b></p><ul><li>Toss a coin to your Witcher (Dan Vasc) &#8211; Sem relação com o tema, mas foi a música que tocou (<a href="https://youtu.be/bS4Q-WWyl3Q">esta versão</a>) quando cruzei a linha dos 21km</li><li>Gentle Change &#8211; Angra</li><li>Castle of Glass &#8211; Linkin Park</li><li>If I could Fly &#8211; Helloween</li></ul><div> </div><p><b>Indicação de jogo relacionado ao tema</b></p><ul><li>Olympic Summer Games &#8211; Atlanta&#8217; 96 (Mega Drive)</li><li>Sonic Adventure 2 &#8211; Sega Dreamcast</li></ul><div> </div><p><b>Filmes relacionados ao artigo</b></p><ul><li>Raça (2016)</li><li>A corrida da superação (2014)</li><li>Spirit of the marathon I e II (2007 e 2013)</li><li>Gun Runners (2015)</li></ul>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2022/03/01/12-meia-maratona-do-zero-aos-21km-do-porque-ao-como-e-o-que-aprendi/index.html">#12 &#8211; Meia maratona &#8211; Do zero aos 21km: do porque ao como, e o que aprendi</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/03/01/12-meia-maratona-do-zero-aos-21km-do-porque-ao-como-e-o-que-aprendi/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#11 &#8211; O que aprendi com ANIMES: De Dragon Ball (Z) aOs Cavaleiros dos Zodíaco</title>
+		<link>./../2021/11/08/o-que-aprendi-com-animes-de-dragon-ball-z-a-cavaleiros-dos-zodiaco/index.html</link>
+					<comments>./../2021/11/08/o-que-aprendi-com-animes-de-dragon-ball-z-a-cavaleiros-dos-zodiaco/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Mon, 08 Nov 2021 22:13:04 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Jogos e Animes]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[cavaleiros dos zodiaco]]></category>
+		<category><![CDATA[dragon ball]]></category>
+		<category><![CDATA[dragon ball Z]]></category>
+		<category><![CDATA[memorias]]></category>
+		<guid isPermaLink="false">./../index.html?p=556</guid>
+
+					<description><![CDATA[<p>Minha história com animes e cultura japonesa remete à meados da década de 1990, com a estreia de Os Cavaleiros do Zodíaco [&#8230;]</p>
+<p>O post <a href="./../2021/11/08/o-que-aprendi-com-animes-de-dragon-ball-z-a-cavaleiros-dos-zodiaco/index.html">#11 &#8211; O que aprendi com ANIMES: De Dragon Ball (Z) aOs Cavaleiros dos Zodíaco</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="556" class="elementor elementor-556">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-bfd5ab7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bfd5ab7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2de9e23" data-id="2de9e23" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-eae6e5e elementor-widget elementor-widget-text-editor" data-id="eae6e5e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: normal;">Minha história com animes e cultura japonesa remete à meados da década de 1990, com a estreia de Os Cavaleiros do Zodíaco na extinta <a href="https://pt.wikipedia.org/wiki/Rede_Manchete">Rede Manchete.</a> Àquela altura, com o raciocínio lógico limitado de uma pessoa transitando entre a infância e pré-adolescência, introduzia em minha mente o que saia da TV. Por sorte, saia dali (dos animes) um conteúdo de elevada qualidade o que, inconscientemente, ajudou-me em meus processos decisórios (veremos adiante, neste texto, como e porque).</span></p>
+<p>Com o tempo e crescimento, comecei a apreciar a cultura japonesa e me introduzi voluntariamente a diferentes feitos do oriente, em destaque para os animes. Dentre estes, me debrucei sobre o já citado Os Cavaleiros do Zodíaco e também sobre Dragon Ball Z, os quais formam a base deste texto.</p>
+<p>Neste artigo pretendo apontar valores morais e comportamentais que ali estavam os quais carreguei comigo para minha vida e carreira.<br></p>
+<p><br></p>
+<p><strong>AVISO 1:</strong> Este é um texto que fará mais sentido ao leitor que conhece ambos os animes. Se você não se enquadra neste perfil, há um alto risco de achar o texto cansativo e, por vezes, sem sentido.</p>
+<p><b>AVISO 2: !!!!!!!!!!!!!!!ALERTA DE SPOILER !!!!!!!!!!!!!!!</b></p>
+<p><b>&nbsp;</b></p>
+<p><b>&nbsp;</b></p>
+<h4>A Batalha das 12 Casas &#8211; Apanhando e seguindo em frente</h4>
+<p>Em um resumo relâmpago, a também conhecida &#8220;Saga dos Cavaleiros de Ouro&#8221; conduz os Cavaleiros de Bronze, guerreiros de terceira classe, na luta contra os Cavaleiros mais fortes (de Ouro), buscando à salvação da deusa Athena. São batalhas individuais, entre um cavaleiro de ouro (até então, &#8220;inimigos&#8221; dos heróis) e um cavaleiro de bronze. Nem mesmo em <a href="https://www.youtube.com/watch?v=h8nC-RnETd0">Rocky vs Drago</a> encontramos surras tão colossais, como a de Shaka em Ikki, e sua reviravolta final (<a href="https://www.youtube.com/watch?v=2uAn5s0vQUw">aqui você encontra a luta completa</a>).</p>
+<p>Para completar, os Cavaleiros de Bronze são constantemente lembrados pelos adversários como sendo inferiores, e que jamais teriam qualquer chance naquelas batalhas, e daqui me saiu um grande ensinamento: <b>quanto se tem um propósito, não é preciso ter preparo (este virá com o tempo). A raça, o foco, o empenho e a luta, podem superar a força, ainda que ela esteja revestida em ouro. </b></p>
+<p>Em outras palavras: de nada adianta a construção de um passado glorioso (ter conquistado a armadura de ouro), se <b>no presente você não estiver a pleno vapor.</b> O futuro não se constrói pelo passado, mas pelas ações do presente. Portanto, mais valia se encontra naquele &#8220;fraco e sem recursos&#8221;, <b>cujos objetivos são claros e ambições bem definidas. </b>Quando se tem um propósito, suporta-se qualquer tombo. Estas características positivas se faziam presentes em todos os Cavaleiros de Bronze os quais, por fim, atingiram ao objetivo e salvaram sua deusa Athena.</p>
+<div>&nbsp;</div>
+<p></p>
+<h4>A saga de Cell &#8211; O desconhecido poder interior</h4>
+<p>Cell é o guerreiro perfeito: uma mistura celular de todos os pontos fortes dos guerreiros Z e seus inimigos. Com qualidades intocáveis, tinha sido construído à luz de uma tecnologia biomolecular de última geração. Ao final da saga, foi massacrado por um garoto de 11 anos com um <b>gigantesco poder interior até então, desconhecido</b>. O significado da palavra &#8220;poder&#8221; é amplo, e pode ser usado também no contexto de se conseguir executar determinada ação. E é assim que eu aprendi esta lição.</p>
+<p>Cada indivíduo tem o poder de transformar sua vida e a dos que lhe rodeiam, sendo esta transformação positiva ou não. E o poder transformador de cada um supera em muito nossas crenças, como nos diz a já citada por aqui <a href="https://www.forbes.com/sites/chrismyers/2017/10/06/the-40-rule-the-simple-secret-to-success/?sh=7dced07d5cdd">regra dos 40% dos Navy SEALs</a>:</p>
+<div>&nbsp;</div>
+<p><b><i>&#8220;The 40% rule is simple: When your mind is telling you that you’re done, that you’re exhausted, that you cannot possibly go any further,&nbsp; you’re only actually 40% done.&#8221;</i></b></p>
+<p><b><i><br></i></b></p>
+<p>Gohan, assim como muitos de nós, desconhecia a regra acima. Mas quando precisou chegar ao seu limite, o encontrou muito além do seu imaginário, nos 60% restantes.</p>
+<p>Para fechar, destaco aqui a maneira como os Sayajins se desenvolvem e se fortalecem: apanhando, e se recuperando em seguida. E quantas vezes mais fracassamos, mais fortes voltamos. Conectando com o que nos ensinou <a href="./../livros-e-analises/index.html">Nassim Taleb</a>, quanto maiores as surras da vida, <a href="./../2020/07/26/antifragilidade-exerciciosfisicos/index.html">antifrágeis por natureza</a>, nos fortalecemos!</p>
+<div>&nbsp;</div>
+<div>
+<h4>E no final de contas, o que fica?</h4>
+<div>
+<p>Além dos aspectos já citados, é digno de nota que ambos os animes valorizam imensamente relações interpessoais com amigos e familiares. Desde Goku, Super Sayajin pela primeira vez após a morte de seu melhor amigo (Kuririn &#8211; <a href="https://www.youtube.com/watch?v=hbmRujgmD2Q">video aqui</a>), até o &#8220;malvadão&#8221; Ikki de Fênix, na saga de Asgard (<a href="https://www.youtube.com/watch?v=sw3ekIk23Ew">video aqui</a>):</p>
+<p><br></p>
+<p><b>&#8220;mas eu tenho amigos valiosos neste mundo com quem compartilho o tempo em que vivemos&#8230; se combatermos com esperança, qualquer sonho poderá ser transformado em realidade. Eu consigo acreditar nisso graças aos meus amigos.&#8221;</b></p>
+</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+</div>
+<p>Depois de tudo, uma breve retomada nos aprendizados:</p>
+<ol>
+<li>Mesmo sendo soldados de classe baixa (Goku e Cavaleiros de Bronze), com metas claramente definidas, agindo com objetividade e disciplina, puderam superar oponentes mais fortes. Goku se tornou mais forte que o príncipe de sua raça. Seiya, sendo um cavaleiro de bronze, derrotou deuses (vide a espetacular saga de Hades). <b>Nós também podemos superar nossos desafios!</b></li>
+<li><b>Família e amigos são o que mais importam nesta vida!</b> Somente eles estarão com e por você nos momentos desastrosos que a vida inevitavelmente nos separa.</li>
+<li>Dê uma chance ao &#8220;mal humorado da sala ao lado&#8221;, pois ele pode se tornar um grande amigo/aliado. Ikki, da Ilha da Rainha da Morte, se tornou um dos principais cavaleiros de Bronze. Piccolo Daimaoh, de impiedoso assassino, deu sua vida para salvar Gohan (<a href="https://www.youtube.com/watch?v=rzgFJhv6yP8">reveja este momento memorável aqui</a>).</li>
+<li>Boas pessoas também cometem erros (vide Shion, de Aries, na Saga de Hades e o cavaleiro Saga, de Gêmeos nas Doze Casas). Apesar disso, buscam a redenção e reparação de seus mal-feitos, o que em geral superam o mal que causaram.</li>
+<li><b>Apanhar, fracassar e continuar. Cair, lutar e seguir em frente. Apanhar, fracassar e em última instância, VENCER. </b>O ciclo sem fim do vencedor, <b>impossibilitado de pular etapas</b>. É altamente provável que você vá apanhar muito da vida. Mais que jamais imaginou aguentar, mas irá suportar (não se esqueça da <a href="https://www.youtube.com/watch?v=-PqNv_53hgs">regra dos 40% dos Navy SEAL</a>). <br></li></ol><div><br></div><ol>
+
+</ol>
+<div><b>Acredite.</b> Lute firme. <b>Aprenda com as surras da vida e do mundo.</b> E siga em frente sempre!</div>
+<div>&nbsp;</div>
+<div>Um abraço,</div>
+<div>&nbsp;</div>
+<div>Samir</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8c82bd9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="8c82bd9" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3fc5779 elementor-widget elementor-widget-text-editor" data-id="3fc5779" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<section data-id="554a573" data-element_type="section"><div><div><div data-id="c3b33ff" data-element_type="column"><div><div><div data-id="e05d510" data-element_type="widget" data-widget_type="text-editor.default"><div><div><div data-id="af6a733" data-element_type="widget" data-widget_type="divider.default"><div><div data-id="9023035" data-element_type="widget" data-widget_type="heading.default"><section data-id="02fcee7" data-element_type="section"><div><div><div data-id="ba1e468" data-element_type="column"><div><div><div data-id="9023035" data-element_type="widget" data-widget_type="heading.default"><div><h2 style="text-align: center;">CONTEÚDO ADICIONAL</h2></div></div></div></div></div></div></div></section></div></div></div></div></div></div></div></div></div></div></div></section>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ed9b9c8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="ed9b9c8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-64cce9a elementor-widget elementor-widget-text-editor" data-id="64cce9a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<section data-id="cdf3671" data-element_type="section"><div><div><div data-id="6ed38d6" data-element_type="column"><div><div><div data-id="1776f8f" data-element_type="widget" data-widget_type="text-editor.default"><div><div><section data-id="d9bc5b5" data-element_type="section"><div><div><div data-id="e84d8be" data-element_type="column"><div><div><div data-id="dd2eb42" data-element_type="widget" data-widget_type="text-editor.default"><div><div><p><b>Músicas para ouvir enquanto se lê o artigo: <br /></b></p><ul><li>Angra &#8211; <a href="https://www.youtube.com/watch?v=o4IcmtTa6Qc">Saint Seya (Pegasus Fantasy)</a></li><li>Cha la &#8211; Head Chala &#8211; uma versão impecável <a href="https://www.youtube.com/watch?v=gjvtSkR2vZs">aqui</a></li></ul><div> </div><p><b>Indicação de jogo relacionado ao tema</b></p><ul><li>Dragon Ball Z: Kakarot (Novamente ele por aqui)</li><li>Jump Force (apesar de belos gráficos, deixa a desejar no quesito diversão)</li></ul><p><b>Filmes relacionados ao artigo</b></p><ul><li>Dragon Ball Z: saga dos Saiyajins</li><li><i>Dragon Ball Super: Broly</i></li><li><i>Toda a saga das Doze Casas &#8211; Cavaleiros do Zodíaco</i></li><li><i>Toda a saga de Hades &#8211; Cavaleiros do Zodíaco<br /></i></li></ul></div></div></div></div></div></div></div></div></section></div></div></div></div></div></div></div></div></section>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2021/11/08/o-que-aprendi-com-animes-de-dragon-ball-z-a-cavaleiros-dos-zodiaco/index.html">#11 &#8211; O que aprendi com ANIMES: De Dragon Ball (Z) aOs Cavaleiros dos Zodíaco</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/11/08/o-que-aprendi-com-animes-de-dragon-ball-z-a-cavaleiros-dos-zodiaco/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#10 &#8211; Auto Responsabilidade e Consistência: trilhas para um pleno percurso</title>
+		<link>./../2021/10/25/auto-responsabilidade-e-consistencia-trilhas-para-um-pleno-percurso/index.html</link>
+					<comments>./../2021/10/25/auto-responsabilidade-e-consistencia-trilhas-para-um-pleno-percurso/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2021 00:20:06 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[comportamento]]></category>
+		<category><![CDATA[memorias]]></category>
+		<category><![CDATA[plenitude]]></category>
+		<category><![CDATA[reflexoes]]></category>
+		<category><![CDATA[responsabilidade]]></category>
+		<category><![CDATA[samirmartins]]></category>
+		<guid isPermaLink="false">./../index.html?p=502</guid>
+
+					<description><![CDATA[<p>Começo este post com esta foto, tirada após um café da manhã, ainda com a roupa que usei para dormir naquele dia. [&#8230;]</p>
+<p>O post <a href="./../2021/10/25/auto-responsabilidade-e-consistencia-trilhas-para-um-pleno-percurso/index.html">#10 &#8211; Auto Responsabilidade e Consistência: trilhas para um pleno percurso</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="502" class="elementor elementor-502">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-3551c27 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3551c27" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0e38b89" data-id="0e38b89" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-98bd391 elementor-widget elementor-widget-text-editor" data-id="98bd391" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Começo este post com esta foto, tirada após um café da manhã, ainda com a roupa que usei para dormir naquele dia. Sem me preocupar com supérfluos e estética, fui direto ao que me era devido àquele instante: meu momento de leitura diária, comumente aos inícios dos dias. Este é um hábito que adquiri e que tem auxiliado na construção de meu ser. Na foto comigo, Marcos Vinícius: razão primária da fundação e manutenção deste blog.  Nestes momentos de leitura, passei por dois livros que inspiraram este post: Extreme Ownership (Responsabilidade Extrema) e Compound Effect (Efeito Composto), cujos resumos podem ser encontrados <a href="./../livros-e-analises/index.html">aqui</a>. </p><p>São obras complementares, cuja principal mensagem, combinada e crua, é: assuma a <b>responsabilidade </b>sobre sua vida, construa hábitos diários, <b>consistentes</b>, e terá grandes aliados <strong>ao longo do tempo.</strong> Vamos, portanto, dividir esta conversa em duas partes: i) <b>Auto responsabilidade </b>e; ii) <b>Tempo ao tempo: o efeito composto</b>.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-15d14af elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="15d14af" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-222243d" data-id="222243d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d70df67 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="d70df67" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6603054 elementor-widget elementor-widget-text-editor" data-id="6603054" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h3>Auto responsabilidade</h3>
+<p>Vamos começar com uma metáfora. Carter e Paulo são dois jovens, nascidos em 2010. Carter nasceu em uma família rica, norte-americana. Paulo, por outro lado, é cidadão brasileiro, nascido em família de classe média-baixa, estrato de maior concentração de indivíduos no país. Ambos desejam, como meta de vida, <b>se tornar Engenheiros e constituir uma família tradicional, com dois filhos.</b> Vamos a alguns fatos os quais, por definição, independem de opiniões:</p>
+<p><strong>Fato 1:</strong> à par de eventos aleatórios que ocorram na vida de qualquer ser humano (como doenças e mortes inesperadas), é provável o caminho de Carter seja menos duro que o de Paulo.</p>
+<p><strong>Fato 2:</strong> o <strong>Fato 1 </strong>não altera, em nenhuma instância, o percurso de Paulo, mesmo que Paulo se coloque como vítima.</p>
+<p><strong>Fato 3:</strong> local de nascimento e condições iniciais como dinheiro e herança não são fatores controlados por ninguém. É parte da loteria da vida,<b> que sempre será injusta e desigual.</b></p>
+<p><strong>Fato 4: </strong>lamentar o passado e as condições de início de vida <strong>não constrói o futuro desejado. </strong></p>
+<p>Saindo do campo dos Fatos e voltando ao da opinião: Paulo e Carter, com caminhos diferentes, ambos podem atingir os objetivos almejados. Mas para isto precisam <strong>se responsabilizar pelo seu próprio futuro</strong>, ao invés de culpar o sistema, o político corrupto, o vizinho que nasceu mais rico ou o colega de quarto que é mais bonito que eles.</p>
+<p>A auto responsabilidade, no entanto, exige escolhas difíceis, que vão desde o <a href="https://pt.wikipedia.org/wiki/Experimento_do_marshmallow">paradoxo do marshmallow</a> até a opção entre uma noite de estudos ou uma festa de república. Entre <b>o pouco retorno imediato e a potencial recompensa valiosa, mas futura. </b>Da opção pela fruta como sobremesa ao invés da torta de chocolate. Estas escolhas compostas pelo tempo e combinadas entre si te aproximarão (ou afastarão) de seu objetivo. E em comunhão com o tempo, que não volta atrás, <b>o levarão exatamente para onde você mereceu estar</b>.</p>
+<p>A auto responsabilidade implica, portanto, em se posicionar à frente de suas escolhas, <strong>naquilo em que você tem poder de escolha, sem se preocupar com o que não é por você controlado</strong>. À exceção de casos patológicos, <strong>sempre será sua responsabilidade:</strong></p>
+<ol>
+<li>Manter a forma física, no mínimo, dentro dos limites saudáveis.
+<ul>
+<li>&nbsp;Como consequência, dispor de energia física e mental para execução dos afazeres diários com nível de excelência (próximo ao seu limite).<br></li>
+</ul>
+</li>
+<li>Estabelecer exercícios para manutenção da saúde mental.</li>
+<li>Construir os meios que permitam a você caminhar na busca de seus objetivos e, portanto, não aguardar que outros construam por você (ninguém irá fazer o que deve ser feito por você!)</li>
+<li>Não se colocar como <strong>vítima.</strong> O mundo <b>sempre será injusto.</b> Cabe a você buscar meios para alterar o que não concorda.
+<ul>
+<li>Ao se vitimizar, você <b>automaticamente transfere o poder de mudar sua vida para outros </b>(pessoas ou governos), o que <b>tira o seu poder de reação</b>. Isto irá te remover da trilha que o leva até onde você tiver traçado.</li>
+<li>Auto responsabilidade te liberta do vitimismo. Como ônus,<b> joga em seu colo a necessidade de agir.</b> Dói, mas é <b>libertador</b>.</li>
+</ul>
+</li>
+<li>Escolher o que consome. Se você não abastece seu carro no posto mais barato (por medo de gasolina adulterada), você não deveria ingerir qualquer tipo de alimento.</li>
+<li>Escolher entre a série da TV ou exercício físico diário.</li>
+<li>Executar ações que tornem seu cônjuge mais feliz, e o relacionamento mais saudável.</li>
+<li>Colher as recompensas do meio do caminho, que contribuirão para sua realização plena e para que você não desanime em um processo doloroso.</li>
+<li>Optar pela carreira desejada, e inclusive <b>alterar a direção, </b>caso a mesma não te complete.</li>
+<li>Construir seu patrimônio.
+<ul>
+<li>Do exemplo acima: Paulo ter nascido pobre<b> não o submete à pobreza por toda a vida.</b> Suas escolhas determinarão quem ele é e o patrimônio que ele construirá, e estas são de sua responsabilidade. Nascer pobre advém da loteria da vida, e isto é incontrolável. Morrer pobre é, na maioria das vezes,<b> fruto das escolhas feitas no meio do caminho</b>.</li>
+</ul>
+</li>
+</ol>
+<div>&nbsp;</div>
+<div>A lista pode continuar por tantos itens quanto o leitor desejar, e o mesmo pode adequá-la à sua realidade: em suma, esta é a mensagem: <b>é sua responsabilidade construir a vida que tanto deseja. Esteja ciente que, para tal, sacrifícios (muitos!) serão necessários. </b>Frequentemente você terá que optar entre o mais fácil a ser feito e o que é o correto a se fazer. Com o devido cuidado com a ação do <b>viés da confirmação </b>(escreverei mais sobre isto em algum post), opte pelo segundo e será feliz. <b>If it was to be, it was up to me </b>(Darren Hardy).</div>
+<div>&nbsp;</div>
+<h3>Tempo ao tempo: o efeito composto</h3>
+<p>Diante de toda a discussão que já tivemos até aqui, um fato: qualquer que seja a sua realidade, <strong>ela não será alterada após a leitura deste artigo.</strong> Será preciso um <strong>longo tempo, fazendo pequenas e grandes escolhas corretas</strong>, para que você consiga sentir as coisas melhorando. <br></p><p>Paulo, do exemplo acima, não ficará rico do dia para a noite. Carter não se tornará um engenheiro sem apanhar (<strong>muito!</strong>) de sua calculadora HP e dos complexos cálculos envolvidos na profissão. Nenhum dos dois conquistará a mulher de seus sonhos imediatamente, sem construir um relacionamento <strong>a passos fortes, mas lentos e certeiros.&nbsp;</strong></p>
+<p>É fundamental ter consciência da ação desta variável (<b>tempo</b>) em nossa vida e escolhas. Isto impede o desânimo e auxilia na construção do raciocínio da recompensa de longo prazo (se ainda não leu, recomendo novamente o <a href="https://pt.wikipedia.org/wiki/Experimento_do_marshmallow">paradoxo do marshmallow</a> &#8211; existem vídeos divertidos sobre o tema no youtube). Além dessa consciência temporal, quebrar a grande meta em pequenas conquistas diárias em geral funciona bem, principalmente quando acompanhada de pequenas recompensas (um pequeno &#8220;mimo&#8221; a cada micro-conquista) para não desanimar.</p>
+<p>Outro ponto fundamental é: em geral, mudanças radicais, <strong>são tão intensas quanto breves, e tendem a não funcionar.</strong> Se você não está habituado a se exercitar, começar com uma corrida diária de 10km não é uma boa opção. Prefira uma caminhada de 20minutos, progredindo gradativamente à medida em que seu corpo se habitua. Se você não se acostumou ainda com a leitura diária, implantar um ritmo de 40 páginas diárias provavelmente <b>fará você não ler nenhuma após um mês de tentativas e frustrações</b>. Estas situações por vezes geram desânimo, o que atrapalha a consistência requerida das verdadeiras mudanças.</p>
+<p></p>
+<p>Em suma: dite seu próprio caminho. Mude de rota, se necessário, e assuma as rédeas de seu percurso e destino. Dê o tempo necessário para que as mudanças ocorram, mas não use-o como desculpas para não agir. <b>Sua vida, sua responsabilidade. Seu tempo, seu maior bem: seu tesouro!</b></p><p><b><br></b></p>
+<p></p>
+<h6 style="text-align: right;">&#8220;The day you graduate from childhood to adulthood is the day you take full responsibility for you life&#8221; (JIM ROHN)</h6>
+<h6 style="text-align: right;">&#8220;Busque o que é significativo, não o que é conveniente&#8221; (JORDAN PETTERSON)</h6><div><br></div>
+<p></p>
+<p><strong>Um abraço, </strong></p>
+<p></p>
+<p><strong>Samir</strong> </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9299530 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="9299530" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-554a573 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="554a573" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c3b33ff" data-id="c3b33ff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e05d510 elementor-widget elementor-widget-text-editor" data-id="e05d510" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-element elementor-element-af6a733 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="af6a733" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-element elementor-element-9023035 elementor-widget elementor-widget-heading" data-id="9023035" data-element_type="widget" data-widget_type="heading.default">
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-02fcee7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="02fcee7" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba1e468" data-id="ba1e468" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-9023035 elementor-widget elementor-widget-heading" data-id="9023035" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">CONTEÚDO ADICIONAL</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d6e9aa3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="d6e9aa3" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cdf3671 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cdf3671" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ed38d6" data-id="6ed38d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1776f8f elementor-widget elementor-widget-text-editor" data-id="1776f8f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<section data-id="d9bc5b5" data-element_type="section"><div><div><div data-id="e84d8be" data-element_type="column"><div><div><div data-id="dd2eb42" data-element_type="widget" data-widget_type="text-editor.default"><div><div><p><b>Músicas para ouvir enquanto se lê o artigo: <br /></b></p><ul><li>Tonight, Tonight &#8211; Smashing Pumpkins</li><li>Sign of the Cross &#8211; Avantasia</li><li>Silverseal &#8211; Elvenking</li><li>Fear of the fallen &#8211; Helloween</li><li>Vain Glory Opera &#8211; Edguy</li></ul><div> </div><p><b>Livros e textos que inspiraram o artigo:</b></p><ul><li>The Compound Effect &#8211; Jumpstart your income, your life, your success: Darren Hardy</li><li> Extreme Ownership: How U.S. Navy Seals Lead and Win. Jocko Willink e Leif Babin</li></ul><p><b> </b></p><p><b>Indicação de jogo relacionado ao tema</b></p><ul><li>Dragon Ball Z: Kakarot</li><li>To the Moon (um dos melhores que eu já joguei!)</li></ul><p><b>Filmes relacionados ao artigo</b></p><ul><li>Rocky Balboa (Rocky VI e o restante da série)</li><li>Homens de Honra</li><li>Duelo de Titãs</li></ul></div></div></div></div></div></div></div></div></section>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2021/10/25/auto-responsabilidade-e-consistencia-trilhas-para-um-pleno-percurso/index.html">#10 &#8211; Auto Responsabilidade e Consistência: trilhas para um pleno percurso</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/10/25/auto-responsabilidade-e-consistencia-trilhas-para-um-pleno-percurso/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>#9 &#8211; Programe-se: the Zen of Life</title>
+		<link>./../2021/07/17/programe-se/index.html</link>
+					<comments>./../2021/07/17/programe-se/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Sat, 17 Jul 2021 18:46:10 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Memórias]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[Sem categoria]]></category>
+		<category><![CDATA[desenvolvimento pessoal]]></category>
+		<category><![CDATA[logica]]></category>
+		<category><![CDATA[programacao]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[razao]]></category>
+		<guid isPermaLink="false">./../index.html?p=390</guid>
+
+					<description><![CDATA[<p>Do porque você deveria aprender a programar (ou, se você já sabe, colocar em prática) De outros posts deste blog (como este [&#8230;]</p>
+<p>O post <a href="./../2021/07/17/programe-se/index.html">#9 &#8211; Programe-se: the Zen of Life</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="390" class="elementor elementor-390">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-9b8e7c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b8e7c3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f829d7" data-id="2f829d7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9c730a8 elementor-widget elementor-widget-heading" data-id="9c730a8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-medium">Do porque você deveria aprender a programar (ou, se você já sabe, colocar em prática)</h3>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a6bb1d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a6bb1d3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d798df1" data-id="d798df1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d0225d5 elementor-widget elementor-widget-text-editor" data-id="d0225d5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>De outros posts deste blog (como <a href="./../2021/01/13/a-matematica-da-vida-ou-quando-menos-e-mais/index.html" target="_blank" rel="noopener">este</a> e <a href="./../2020/08/30/4-escolhas-custo-afundado/index.html" target="_blank" rel="noopener">este</a>), é possível perceber que eu, apesar de ser uma pessoa emotiva, acredito na razão para tomada de decisões. Apesar disso, são bem conhecidos na ciência os momentos em que temos o conhecido <a href="https://pt.wikipedia.org/wiki/Sequestro_emocional" target="_blank" rel="noopener">sequestro da amígdala</a>: nestes instantes, <b>nenhuma razão </b>é utilizada para a tomada de importantes decisões. Em virtude destes fatos, optei por escrever sobre algo que muito me motiva e torna a vida mais leve (e racional): programação de computadores.&nbsp;</p>
+<p>O tema pode parecer espinhoso em um primeiro relance e afastar o leitor que desconhece o assunto. De fato, houve uma época em que programar computadores era tarefa para poucos (a época dos <a href="https://memoriainfo.furg.br/acervo/cartoes" target="_blank" rel="noopener">cartões perfurados</a>&#8230;.), mas esta data se encontra cada vez mais longínqua, fazendo com que a atividade citada se torne algo cada vez mais simples, funcional, útil e prazerosa.</p>
+<p>Eu obtive o livre acesso aos computadores aos 18 anos, no outuno de 2006, quando iniciei minha graduação &#8211; eu não tinha um pc até então. Meu primeiro contato com programação se deu nesta mesma data, utilizando o já obsoleto <a href="https://pt.wikipedia.org/wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)">Pascal</a> (<a href="https://pt.wikipedia.org/wiki/Pascal_Zim!">PascalZim</a>), no laboratório de computadores da UFSJ. Esta experiência, apesar de simplificada, foi transformadora, pois ali eu começava a entender como computadores &#8220;conversavam&#8221; e, o mais importante, que qualquer pessoa minimamente dedicada poderia aprender a <b>falar uma nova língua</b>. Ao longo de minha formação tive experiências (umas curtas, outras, bem mais aprofundadas) com outras linguagens como Matlab/Scilab/Octave, C/C++/C#, Fortran, um pouco de HTML, CSS e, mais recentemente, <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a>. À par de minha questão pessoal com computadores, vamos ao que realmente importa: a tomada de decisões utilizando a parte lógica do cérebro humano, e como programação de computadores se encaixa neste contexto. </p>
+<p>Em termos menos rígidos, os computadores conversam entre si utilizando <b>comandos lógicos</b> e seguindo <b>ordens previamente estabelecidas por alguém</b> (usuário), tomando decisões de forma completamente racional, sem nenhuma influência emocional. Em termos simplistas, seguem ordens dadas pelos programadores do tipo &#8220;<b>SE</b> a vida lhe apresentar limões, <b>FAÇA </b>uma limonada&#8221;, ou ainda &#8220;<b>ENQUANTO </b>você não alcançar seu objetivo, <b>TRABALHE </b>duro&#8221;. No final de contas, é executado precisamente o que se foi planejado, independente de emoções ao longo do processo. Emoções estas, portanto, não têm lugar na execução das instruções previamente apresentadas ao computador (quem nunca conheceu um colega que ia mal nas avaliações por ter ficado nervoso durante a mesma?).</p>
+<p>Para detalhar um pouco mais todo este tema, vou dividir o assunto em três partes: i) do mito &#8220;programar é coisa de NERD&#8221;, ou &#8220;isto não é para mim; ii) das aplicações práticas e cotidianas envolvendo programação de computadores e por fim; iii) porque você deveria considerar Python como seu primeiro (ou próximo) ambiente de programação (pelo menos até a data de escrita deste artigo).</p>
+<p></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-02fed77 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="02fed77" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-88a1539 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88a1539" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0149609" data-id="0149609" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-45a64fc elementor-widget elementor-widget-text-editor" data-id="45a64fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><strong>1- DO MITO: &#8220;PROGRAMAR É COISA DE NERD&#8221;, OU &#8220;ISTO NÃO É PARA MIM&#8221;</strong></p>
+<p>&nbsp;Começo esta seção com uma notícia do<a href="https://g1.globo.com/economia/tecnologia/noticia/2021/03/09/como-brasileiro-virou-programador-usando-celulares-quebrados.ghtml"> garoto que aprendeu a programar utilizando celulares quebrados</a> (ele não tinha um pc). É óbvio que não se espera este tipo de heroísmo de toda a população, mas esta chocante reportagem nos mostra que sim: <b>WHERE THERE IS A WILL, THERE IS A WAY (onde há uma vontade, há um caminho).&nbsp; </b>Ou encontramos <b>um caminho</b> para atingir o objetivo, ou <b>uma desculpa</b> para não perseguí-lo. A escolha é de cada um.<b><br></b></p>
+<p>Na prática, o que acontece é que a nossa mente, na tentativa (as vezes bem sucedida) de poupar energia para momentos mais críticos, cria argumentos auto-sabotantes como <b>&#8220;é coisa de nerd&#8221;</b>, <b>&#8220;isto não é para mim&#8221;</b>, <b>&#8220;precisaria ter mais tempo&#8221;</b> ou ainda <b>&#8220;precisaria de um computador excelente&#8221;</b>. Saiba, portanto, que estas e outras desculpas podem estar tentando te desviando de sua rota de desejo (caminho mais duro, é verdade), e encaminhando-o ao caminho de menor resistência, o qual gera pouco ou nenhum fruto.</p>
+<p>Outra falácia que comumente encontramos é que é necessário comprar cursos caros para aprender a programar. Isto não é verdade. Há, no youtube, longos cursos gratuitos (e de muita qualidade) sobre diferentes linguagens de programação, que não possuem nenhum pré-requisito para início. Portanto, sim, isto é para você: <b>basta você desejar! </b>Como exemplos, <a href="https://www.youtube.com/results?search_query=curso+python+completo" target="_blank" rel="noopener">veja este link </a>onde você encontra cursos gratuitos com aulas entre 10 minutos e 12 horas (ou mais), ensinando o primeiro passo da linguagem Python.<b><br></b></p>
+<p><b>&nbsp;</b></p>
+<p><strong>2- DAS APLICAÇÕES PRÁTICAS E COTIDIANAS ENVOLVENDO PROGRAMAÇÃO DE COMPUTADORES<br></strong></p>
+<p>É possível encontrar aplicações em programação para diferentes contextos de nosso cotidiano. Quem não gostaria de poder analisar a tendência de preços do mercado imobiliário, antes de efetuar (ou não) a compra de uma casa? Ou, ainda, qual advogado não gostaria de tomar a decisão de assumir ou não um determinado caso judicial baseando-se na <b>propobabilidade </b>de vencer a causa e no respectivo <b>retorno financeiro</b>, computados a partir de um sistema especialista tipo Fuzzy? A boa notícia é que tudo isto é possível, e o custo envolvido para tal é o tempo necessário para que você desenvolva o que deseja utilizar.</p>
+<p>Nesta parte do texto vou buscar ser mais direto, indicando aplicações práticas (em Python, pelas razões que apresento no item 3) que podem tornar tomadas de decisões racionais, bem como contribuir para a compreensão de diferentes processos, para profissionais de distintas áreas. Obviamente, o objetivo aqui não é, nem de longe, esgotar o assunto. Ressalto que se você se encontra perante um problema que envolva tomada de decisões, provavelmente encontrará uma forma de utilizar computadores para auxiliá-lo (basta ser criativo e&#8230;. usar o <a href="https://pt.stackoverflow.com/" target="_blank" rel="noopener">stackoverflow</a>).<strong><strong> <br></strong></strong></p>
+<p><strong><strong>Exemplos de aplicações: <br></strong></strong></p>
+<p><u><i>2.1 Tomadas de decisão baseada em sistemas especialistas (Fuzzy) &#8211; <a href="https://github.com/scikit-fuzzy/scikit-fuzzy" target="_blank" rel="noopener">Scikit Fuzzy</a>:<br></i></u></p>
+<p><i><u>2.2 Aplicações em Engenharias &#8211; <a href="https://www.scipy.org/">SciPy</a></u></i></p>
+<p><i><u>2.3 Projeto e implementação de filtros digitais (inclusive com aplicações a sinais de áudio e processamento de sinais) &#8211; <a href="https://github.com/chipmuenk/pyfda" target="_blank" rel="noopener">PyFDA</a></u></i></p>
+<p><i><u>2.4 Aplicações do tipo &#8220;plug n play&#8221; para ciên</u></i><i><u>cia de dados &#8211; <a href="https://scikit-learn.org/stable/" target="_blank" rel="noopener">SciKitLearn</a><br></u></i></p>
+<p><u>2.5. Análise e visualização de dados &#8211; <a href="https://pandas.pydata.org/">Pandas</a> e <a href="https://matplotlib.org/" target="_blank" rel="noopener">Matplotlib</a></u></p>
+<p><u>2.6 Deep Learning e Redes Neurais &#8211; <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a>, <a href="https://keras.io/" target="_blank" rel="noopener">Keras</a>, <a href="https://www.tensorflow.org/?hl=pt-br" target="_blank" rel="noopener">TensorFlow</a><br></u></p>
+<p><u>2.7 Análise e modelagem de séries te</u><u>mporais estilo &#8220;plug n play&#8221; &#8211; <a href="http://sysidentpy.org/" target="_blank" rel="noopener">SysIdentPy</a> &#8211; <b><i>RECOMENDADO</i> </b>(descubra o porque no site da biblioteca =])</u></p>
+<p><u>2.8 Análises estatísticas de mercados financeiros nacionais e internacionais (ações, Forex, criptomoedas, índices/ETFs, &#8230;) &#8211; <a href="https://pypi.org/project/MetaTrader5/" target="_blank" rel="noopener">API Python MT5</a></u></p>
+<p><u><i>2.9 Aplicações em biomedicina como classificação de estado dos olhos por meio de EEG &#8211; <a href="https://ufsj.edu.br/portal2-repositorio/File/ppgel/225-2020-02-17-DissertacaoWilsonLacerda.pdf">Link aqui</a></i></u></p>
+<p>Bacana, não é mesmo? E não pára por aí&#8230; este universo te levará até onde for a sua criatividade, e como sabemos, não existe um limite bem definido para esta.</p>
+<p></p>
+<p><strong><strong>3- PORQUE VOCÊ DEVERIA CONSIDERAR PYTHON COMO SEU PRIMEIRO (OU PRÓXIMO) AMBIENTE DE PROGRAMAÇÃO</strong></strong></p>
+<div>Python é uma linguagem de programação de alto nível, projetada com o propósito de priorizar a legibilidade do código e facilidade de uso. Portanto, pela concepção da mesma, é um bom ponto de partida para quem ainda não tem nenhum conhecimento na área (veja o &#8220;The Zen of Python&#8221; no CONTEÚDO ADICIONAL deste post).</div>
+<div>&nbsp;</div>
+<div>Apesar de seu foco não ser em velocidade, o que ele oferece supre a grande maioria das aplicações para um usuário médio. Caso você precise de mais recursos em termos de velocidade, você pode verificar ferramentas como CuPy, Numba, Multithreading e Multiprocessing que permitem a execução de programas ali desenvolvidos com um desempenho considerável, seja por processamento paralelo ou utilizando o processamento via GPU. <br></div>
+<div>&nbsp;</div>
+<div>Algumas vantagens que vejo nesta linguagem:</div>
+<div>&nbsp;</div>
+<div>i) Desenvolvimento comunitário e aberto da linguagem &#8211; você não paga nada para usar, inclusive a nível comercial;</div>
+<div>ii) Ampla gama de bibliotecas disponibilizadas gratuitamente;</div>
+<div>iii) Facilidade de utilização da linguagem, inclusive para aplicações mais avançadas;</div>
+<div>iv) Comunidade muito ativa, o que faz com que problemas cotidianos sejam resolvidos rapidamente;</div>
+<div>v) Portabilidade e possibilidade de execução do código em diferentes sistemas.</div>
+<div>&nbsp;</div>
+<div>Se você ainda não conhece, recomendo que dê uma olhada no <a href="https://www.anaconda.com/">Anaconda </a>(e no editor Spyder &#8211; já integrado com este pacote). É um excelente ponto de partida para quem deseja programar em Python.</div>
+<div>&nbsp;</div>
+<div>E, para finalizar, deixo uma imagem que ilustra o interesse da comunidade na linguagem, bem como seu <b>crescimento de 400</b>% em buscas ao longo de cerca de dez anos (<i><u>fonte: https://stackoverflow.blog/2021/07/14/getting-started-with-python</u></i>)</div>
+<div>&nbsp;</div>
+<div>&nbsp;<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img loading="lazy" decoding="async" class="alignnone size-full wp-image-474" src="./../wp-content/uploads/2021/07/pythonsover.png" alt="" width="586" height="391" srcset="./../wp-content/uploads/2021/07/pythonsover.png 586w, ./../wp-content/uploads/2021/07/pythonsover-300x200.png 300w, ./../wp-content/uploads/2021/07/pythonsover-230x153.png 230w, ./../wp-content/uploads/2021/07/pythonsover-350x234.png 350w, ./../wp-content/uploads/2021/07/pythonsover-480x320.png 480w" sizes="(max-width: 586px) 100vw, 586px" /><br></strong></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>É isto! Agradeço pelo tempo que dedicou à esta leitura, e espero que a mesma tenha lhe sido proveitosa!</div><div><b><br></b></div><div><b>Programe-se: tome decisões objetivas e racionais. E <u>seja feliz</u>!</b></div>
+<div>&nbsp;</div>
+<div>Um abraço,</div>
+<div>&nbsp;</div>
+<div>Samir.</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-af6a733 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="af6a733" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-02fcee7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="02fcee7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba1e468" data-id="ba1e468" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9023035 elementor-widget elementor-widget-heading" data-id="9023035" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CONTEÚDO ADICIONAL</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-150be86 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="150be86" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bd0659" data-id="2bd0659" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4a0bc64 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4a0bc64" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9bc5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9bc5b5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e84d8be" data-id="e84d8be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-dd2eb42 elementor-widget elementor-widget-text-editor" data-id="dd2eb42" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Músicas para ouvir enquanto se lê o artigo:</b></p><p><b> </b></p><ul><li><i>Travelers of Time </i>&#8211; Angra</li><li><i>Emerald Sword</i> &#8211; Rhapsody of Fire</li><li><i>Mirror of Delusion</i> e também <i>Bonfire of Vanities </i>&#8211; Edu Falaschi</li><li>Streets of Florence  &#8211; Edu Falaschi</li></ul><p><b>Livros e textos que inspiraram o artigo:</b></p><ul><li>The Zen of Python &#8211; Execute <em>import this </em> em qualquer <a href="https://replit.com/languages/python3" target="_blank" rel="noopener">compilador online</a> (basta digitar e clicar em &#8220;Run&#8221;)</li><li>Data Science from Scratch: Joel Grus</li></ul><p><b>Indicação de jogo relacionado ao tema</b></p><ul><li>Final Fantasy X &#8211; Para quem não esquece a cidade que nunca dorme: Zanarkand!</li></ul><p><b>Filmes relacionados ao artigo</b></p><ul><li>O Jogo da imitação</li><li>O dilema das redes</li><li>Matrix (novamente aparecendo por aqui &#8211; todos eles!)</li></ul>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../2021/07/17/programe-se/index.html">#9 &#8211; Programe-se: the Zen of Life</a> apareceu primeiro em <a href="./../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/07/17/programe-se/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arquivos analisefundamentalista - SAMIR MARTINS</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Blog Pessoal</description>
+	<lastBuildDate>Sun, 25 Sep 2022 20:02:50 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2021/01/cropped-favicon-32x32.png</url>
+	<title>Arquivos analisefundamentalista - SAMIR MARTINS</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>#14 Fox &#8211; A Link to the Price</title>
+		<link>./../../../2022/09/25/14-fox-a-link-to-the-price/index.html</link>
+					<comments>./../../../2022/09/25/14-fox-a-link-to-the-price/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Sun, 25 Sep 2022 19:57:19 +0000</pubDate>
+				<category><![CDATA[Desenvolvimento Pessoal]]></category>
+		<category><![CDATA[Metas]]></category>
+		<category><![CDATA[Reflexões Diversas]]></category>
+		<category><![CDATA[acoes]]></category>
+		<category><![CDATA[analisefundamentalista]]></category>
+		<category><![CDATA[analisetecnica]]></category>
+		<category><![CDATA[criptomoedas]]></category>
+		<category><![CDATA[ibovespa]]></category>
+		<category><![CDATA[machinelearning]]></category>
+		<category><![CDATA[mercadofinanceiro]]></category>
+		<category><![CDATA[priceaction]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=807</guid>
+
+					<description><![CDATA[<p>Olá, meu nome é Samir Martins, Eng. Eletricista, mestre e doutor em Engenharia Elétrica, com ênfase em modelagem matemática de séries temporais. [&#8230;]</p>
+<p>O post <a href="./../../../2022/09/25/14-fox-a-link-to-the-price/index.html">#14 Fox &#8211; A Link to the Price</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="807" class="elementor elementor-807">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-943b8d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="943b8d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-93691fc" data-id="93691fc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3bbcd7f elementor-widget elementor-widget-text-editor" data-id="3bbcd7f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">Olá, meu nome é Samir Martins, Eng. Eletricista, mestre e doutor em Engenharia Elétrica, com ênfase em modelagem matemática de séries temporais. Eu trabalho com análise de séries temporais desde o segundo semestre de 2006 (há 16 anos), e trabalho como professor universitário há quase 10 anos. <br></p><p style="text-align: left;">O motivo deste texto é que eu decidi tornar pública e gratuita algumas funcionalidades de um robô para Telegram desenvolvido por mim, de nome Fox &#8211; A Link to the Price. Este robô fornece dados para análise fundamentalista e análise técnica de ativos do mercado financeiro mundial (B3, NYSE/NASDAQ, criptomoedas e Forex) utilizando estatística, Price Action, análise técnica e machine learning. Eu desenvolvi este robô há algum tempo, mas mantinha para uso privado até a presente data. </p>
+<p>Para acessar o robô você pode usar o link abaixo:</p>
+<p><a href="https://t.me/fox_priceAction_bot">https://t.me/fox_priceAction_bot</a></p>
+<p>Ou simplesmente pesquisar por &#8220;@fox_priceAction_bot&#8221; em seu Telegram.</p><div>Veja a seguir algumas imagens do robô, bem como um videotutorial de como utilizá-lo.</div><p></p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-af96f76 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="af96f76" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0fe8dc" data-id="e0fe8dc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3d52ba5 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="3d52ba5" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/fox_webp-300x300.webp" alt="fox_a_link_to_the_price" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-19-37-142x300.jpg" alt="photo_2022-09-24_12-19-37" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-19-44-142x300.jpg" alt="photo_2022-09-24_12-19-44" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-19-49-142x300.jpg" alt="photo_2022-09-24_12-19-49" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-20-02-142x300.jpg" alt="photo_2022-09-24_12-20-02" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-20-05-142x300.jpg" alt="photo_2022-09-24_12-20-05" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 de 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/09/photo_2022-09-24_12-20-08-142x300.jpg" alt="photo_2022-09-24_12-20-08" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-fff5995 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fff5995" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6decfd" data-id="b6decfd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-42760d4 elementor-widget elementor-widget-video" data-id="42760d4" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=rmrhDltJrR0&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../../../2022/09/25/14-fox-a-link-to-the-price/index.html">#14 Fox &#8211; A Link to the Price</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2022/09/25/14-fox-a-link-to-the-price/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

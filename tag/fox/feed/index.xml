@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arquivos fox - SAMIR MARTINS</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Blog Pessoal</description>
+	<lastBuildDate>Thu, 13 Oct 2022 15:38:35 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2021/01/cropped-favicon-32x32.png</url>
+	<title>Arquivos fox - SAMIR MARTINS</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</title>
+		<link>./../../../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html</link>
+					<comments>./../../../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Samir Angelo Milani Martins]]></dc:creator>
+		<pubDate>Wed, 12 Oct 2022 22:02:33 +0000</pubDate>
+				<category><![CDATA[Metas]]></category>
+		<category><![CDATA[alinktotheprice]]></category>
+		<category><![CDATA[bot]]></category>
+		<category><![CDATA[fox]]></category>
+		<category><![CDATA[foxALinkToThePrice]]></category>
+		<category><![CDATA[priceaction]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[telegram]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=821</guid>
+
+					<description><![CDATA[<p>A partir desta versão é possível verificar a correlação de Pearson entre diferentes ativos com o Fox por meio do comando correlacao. [&#8230;]</p>
+<p>O post <a href="./../../../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html">#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="821" class="elementor elementor-821">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-86f5a19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="86f5a19" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a1eabe" data-id="0a1eabe" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-965ae87 elementor-widget elementor-widget-text-editor" data-id="965ae87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A partir desta versão é possível verificar a correlação de Pearson entre diferentes ativos com o Fox por meio do comando \correlacao. Veja exemplos nos prints a seguir. </p>
+<p>Desta forma você consegue facilmente avaliar se sua carteira de investimentos está devidamente equilibrada ou se novos ajustes se fazem necessários. Interessante, certo? </p>
+<p>Nos exemplos a seguir, vemos uma correlação negativa forte entre o índice Bovespa e o Bitcoin nos últimos 100 dias. Uma correlação negativa, mas não tão intensa, também acontece entre o mesmo índice e o USDBRL (dólar/real). </p>
+<p>Na segunda imagem observamos a correlação entre algumas ações de diferentes setores: quais são suas conclusões a partir daí?</p>
+<div><br></div>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5e668ef elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5e668ef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a53d42" data-id="0a53d42" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-44ee589 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="44ee589" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/10/tela1.webp" alt="tela1" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./../../../wp-content/uploads/2022/10/tela2.webp" alt="tela2" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e06109 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e06109" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-87a1a2a" data-id="87a1a2a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cb13b8b elementor-widget elementor-widget-text-editor" data-id="cb13b8b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div> Se você ainda não conhece o Fox &#8211; A Link to the price, não perca tempo! Acesse o link abaixo para um video tutorial sobre suas funcionalidades implementadas</div><p><iframe title="[PRÁTICO E RÁPIDO] Analise o mercado financeiro via Telegram - CRIPTOMOEDAS, NASDAQ/NYSE, FOREX, B3" width="1170" height="658" src="https://www.youtube.com/embed/rmrhDltJrR0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><p>Compartilhe com seus contatos e siga-me em minhas redes sociais!</p><p>Linkedin: https://www.linkedin.com/in/samir-mar&#8230; <br />Instagram: https://www.instagram.com/milani.mart&#8230; <br />Twitter: https://twitter.com/MartinsSMilani <br />Github: https://github.com/samirmartins</p><p>#priceaction #foxALinkToThePrice #python #telegram #bot</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<p>O post <a href="./../../../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/index.html">#15 &#8211; [NOVO] Sua carteira está diversificada? Verifique com o FOX!</a> apareceu primeiro em <a href="./../../../index.html">SAMIR MARTINS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2022/10/12/15-novo-sua-carteira-esta-diversificada-verifique-com-o-fox/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
