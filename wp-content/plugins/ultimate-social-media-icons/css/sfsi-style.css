@@ -3987,3 +3987,39 @@ amp-facebook-like{
 .sf_fb iframe{
     margin-top: 2px !important;
 }
+
+.success-alert {
+    display: none;
+    position: fixed;
+    top: 100px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 99999;
+}
+
+/* Intro animation */
+@keyframes intro-animation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Keyframes animation to fade out */
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

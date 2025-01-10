@@ -640,6 +640,20 @@ var sfsi_functions_loaded = new CustomEvent('sfsi_functions_loaded', {
 });
 window.dispatchEvent(sfsi_functions_loaded);
 
+function showSuccessAlert() {
+    var alert = document.getElementById("success-alert");
+    alert.style.display = "block";
+    alert.style.animation = "intro-animation 1s";
+
+    setTimeout(function() {
+        alert.style.animation = "fade-out 2s";
+        setTimeout(function() {
+            alert.style.display = "none";
+            alert.style.animation = "none"; // Reset the animation
+        }, 2000); // Adjust the timing to match the fade-out animation duration
+    }, 3000); // Show the alert for 3 seconds (you can adjust the timing)
+}
+
 /* Copy link */
 function sfsi_copyLink(str) {
 
@@ -656,14 +670,14 @@ function sfsi_copyLink(str) {
         document.body.removeChild(el);
 
         // Confirmation of copy success e.g. alert or notification
+        showSuccessAlert();
 
         return true;
 
     } catch (e) {
-
         console.log(e);
 
-        // Rejection notice of copy faliure e.g. alert or notification
+        // Rejection notice of copy failure e.g. alert or notification
 
         return false;
 
@@ -673,9 +687,7 @@ function sfsi_copyLink(str) {
 
 document.querySelectorAll('a.sfsi_copylink').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
-
         e.preventDefault();
         sfsi_copyLink(window.location.href);
-
     });
 });
