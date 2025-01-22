@@ -1,5 +1,7 @@
 /*! @elementor/editor */
 
+/*! @elementor/editor-controls */
+
 /*! @elementor/editor-elements */
 
 /*! @elementor/editor-panels */
@@ -8,7 +10,7 @@
 
 /*! @elementor/editor-responsive */
 
-/*! @elementor/editor-styles */
+/*! @elementor/editor-styles-repository */
 
 /*! @elementor/editor-v1-adapters */
 
@@ -16,11 +18,11 @@
 
 /*! @elementor/menus */
 
+/*! @elementor/schema */
+
 /*! @elementor/ui */
 
 /*! @elementor/utils */
-
-/*! @elementor/wp-media */
 
 /*! @wordpress/i18n */
 
@@ -54,9 +56,9 @@
   !*** external ["elementorV2","editor"] ***!
   \*****************************************/
 
-/*!******************************************!*\
-  !*** external ["elementorV2","wpMedia"] ***!
-  \******************************************/
+/*!*****************************************!*\
+  !*** external ["elementorV2","schema"] ***!
+  \*****************************************/
 
 /*!**********************************************!*\
   !*** external ["elementorV2","editorProps"] ***!
@@ -66,9 +68,9 @@
   !*** external ["elementorV2","editorPanels"] ***!
   \***********************************************/
 
-/*!***********************************************!*\
-  !*** external ["elementorV2","editorStyles"] ***!
-  \***********************************************/
+/*!*************************************************!*\
+  !*** external ["elementorV2","editorControls"] ***!
+  \*************************************************/
 
 /*!*************************************************!*\
   !*** external ["elementorV2","editorElements"] ***!
@@ -81,6 +83,10 @@
 /*!***************************************************!*\
   !*** external ["elementorV2","editorV1Adapters"] ***!
   \***************************************************/
+
+/*!*********************************************************!*\
+  !*** external ["elementorV2","editorStylesRepository"] ***!
+  \*********************************************************/
 
 /*!*********************************************************************!*\
   !*** ./node_modules/@elementor/editor-editing-panel/dist/index.mjs ***!
