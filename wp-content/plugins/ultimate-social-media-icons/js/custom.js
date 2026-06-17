@@ -432,38 +432,36 @@ function sfsi_copy_text_parent_input(event) {
 }
 
 function sfsi_responsive_toggle() {
-    jQuery(document).scroll(function ($) {
-        var y = jQuery(this).scrollTop();
+    let lastScrollTop = 0; // Track the last scroll position
+
+    jQuery(window).on('scroll', function () {
+        let scrollTop = jQuery(this).scrollTop();
+        let scrollDirection = scrollTop > lastScrollTop ? 'down' : 'up'; // Determine scroll direction
+        lastScrollTop = scrollTop;
+
+        // Only execute if popup is not closed
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            if (jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height() - 100) {
-                jQuery('.sfsi_outr_div').css({
-                    'z-index': '9996',
-                    opacity: 1,
-                    top: jQuery(window).scrollTop() + "px",
-                    position: "absolute"
-                });
-                jQuery('.sfsi_outr_div').fadeIn(200);
-                jQuery('.sfsi_FrntInner_chg').fadeIn(200);
-            } else {
-                jQuery('.sfsi_outr_div').fadeOut();
-                jQuery('.sfsi_FrntInner_chg').fadeOut();
+            if (scrollDirection === 'down' && jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height() - 100) {
+                showPopup();
             }
         } else {
-            if (jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height() - 3) {
-                jQuery('.sfsi_outr_div').css({
-                    'z-index': '9996',
-                    opacity: 1,
-                    top: jQuery(window).scrollTop() + 200 + "px",
-                    position: "absolute"
-                });
-                jQuery('.sfsi_outr_div').fadeIn(200);
-                jQuery('.sfsi_FrntInner_chg').fadeIn(200);
-            } else {
-                jQuery('.sfsi_outr_div').fadeOut();
-                jQuery('.sfsi_FrntInner_chg').fadeOut();
+            if (scrollDirection === 'down' && jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height() - 3) {
+                showPopup();
             }
         }
     });
+
+    // Function to show the popup
+    function showPopup() {
+        jQuery('.sfsi_outr_div').css({
+            'z-index': '9996',
+            opacity: 1,
+            top: 'calc((100vh - ' + jQuery('.sfsi_outr_div').outerHeight() + 'px) / 2)',
+            position: 'fixed',
+        });
+        jQuery('.sfsi_outr_div').fadeIn(200);
+        jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+    }
 }
 
 function createCookie(name, value, expires, path, domain) {

@@ -1,4 +1,3 @@
-/*! elementor - v3.27.0 - 20-01-2025 */
 "use strict";
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["frontend"],{
 
@@ -17,8 +16,8 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _document = _interopRequireDefault(__webpack_require__(/*! ./document */ "../assets/dev/js/frontend/document.js"));
 class _default extends elementorModules.ViewModule {
-  constructor() {
-    super(...arguments);
+  constructor(...args) {
+    super(...args);
     this.documents = {};
     this.initDocumentClasses();
     this.attachDocumentsClasses();
@@ -72,22 +71,15 @@ exports["default"] = _default;
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-__webpack_require__(/*! core-js/modules/es.array.push.js */ "../node_modules/core-js/modules/es.array.push.js");
 __webpack_require__(/*! core-js/modules/esnext.iterator.constructor.js */ "../node_modules/core-js/modules/esnext.iterator.constructor.js");
 __webpack_require__(/*! core-js/modules/esnext.iterator.for-each.js */ "../node_modules/core-js/modules/esnext.iterator.for-each.js");
 var _global = _interopRequireDefault(__webpack_require__(/*! ./handlers/global */ "../assets/dev/js/frontend/handlers/global.js"));
-var _background = _interopRequireDefault(__webpack_require__(/*! ./handlers/background */ "../assets/dev/js/frontend/handlers/background.js"));
 var _container = _interopRequireDefault(__webpack_require__(/*! ./handlers/container/container */ "../assets/dev/js/frontend/handlers/container/container.js"));
+var _section = _interopRequireDefault(__webpack_require__(/*! ./handlers/section/section */ "../assets/dev/js/frontend/handlers/section/section.js"));
 var _column = _interopRequireDefault(__webpack_require__(/*! ./handlers/column */ "../assets/dev/js/frontend/handlers/column.js"));
-var _handlesPosition = _interopRequireDefault(__webpack_require__(/*! ./handlers/section/handles-position */ "../assets/dev/js/frontend/handlers/section/handles-position.js"));
-var _stretchedSection = _interopRequireDefault(__webpack_require__(/*! ./handlers/section/stretched-section */ "../assets/dev/js/frontend/handlers/section/stretched-section.js"));
-var _shapes = _interopRequireDefault(__webpack_require__(/*! ./handlers/section/shapes */ "../assets/dev/js/frontend/handlers/section/shapes.js"));
-// Section handlers.
-
 /* global elementorFrontendConfig */
 
 module.exports = function ($) {
-  var _this = this;
   const handlersInstances = {};
   this.elementsHandlers = {
     'accordion.default': () => __webpack_require__.e(/*! import() | accordion */ "accordion").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/accordion */ "../assets/dev/js/frontend/handlers/accordion.js")),
@@ -99,10 +91,13 @@ module.exports = function ($) {
     'video.default': () => __webpack_require__.e(/*! import() | video */ "video").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/video */ "../assets/dev/js/frontend/handlers/video.js")),
     'image-carousel.default': () => __webpack_require__.e(/*! import() | image-carousel */ "image-carousel").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/image-carousel */ "../assets/dev/js/frontend/handlers/image-carousel.js")),
     'text-editor.default': () => __webpack_require__.e(/*! import() | text-editor */ "text-editor").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/text-editor */ "../assets/dev/js/frontend/handlers/text-editor.js")),
-    'wp-widget-media_audio.default': () => __webpack_require__.e(/*! import() | wp-audio */ "wp-audio").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/wp-audio */ "../assets/dev/js/frontend/handlers/wp-audio.js"))
+    'wp-widget-media_audio.default': () => __webpack_require__.e(/*! import() | wp-audio */ "wp-audio").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/wp-audio */ "../assets/dev/js/frontend/handlers/wp-audio.js")),
+    container: _container.default,
+    section: _section.default,
+    column: _column.default
   };
   if (elementorFrontendConfig.experimentalFeatures['nested-elements']) {
-    this.elementsHandlers['nested-tabs.default'] = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/nested-tabs/assets/js/frontend/handlers/nested-tabs */ "../modules/nested-tabs/assets/js/frontend/handlers/nested-tabs.js"));
+    this.elementsHandlers['nested-tabs.default'] = () => __webpack_require__.e(/*! import() | nested-tabs */ "nested-tabs").then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/nested-tabs/assets/js/frontend/handlers/nested-tabs */ "../modules/nested-tabs/assets/js/frontend/handlers/nested-tabs.js"));
   }
   if (elementorFrontendConfig.experimentalFeatures['nested-elements']) {
     this.elementsHandlers['nested-accordion.default'] = () => __webpack_require__.e(/*! import() | nested-accordion */ "nested-accordion").then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/nested-accordion/assets/js/frontend/handlers/nested-accordion */ "../modules/nested-accordion/assets/js/frontend/handlers/nested-accordion.js"));
@@ -113,16 +108,6 @@ module.exports = function ($) {
   }
   const addGlobalHandlers = () => elementorFrontend.hooks.addAction('frontend/element_ready/global', _global.default);
   const addElementsHandlers = () => {
-    this.elementsHandlers.section = [_stretchedSection.default,
-    // Must run before background handlers to init the slideshow only after the stretch.
-    ..._background.default, _handlesPosition.default, _shapes.default];
-    this.elementsHandlers.container = [..._background.default];
-
-    // Add editor-only handlers.
-    if (elementorFrontend.isEditMode()) {
-      this.elementsHandlers.container.push(..._container.default);
-    }
-    this.elementsHandlers.column = _column.default;
     $.each(this.elementsHandlers, (elementName, Handlers) => {
       const elementData = elementName.split('.');
       elementName = elementData[0];
@@ -131,13 +116,12 @@ module.exports = function ($) {
     });
   };
   const isClassHandler = Handler => Handler.prototype?.getUniqueHandlerID;
-  const addHandlerWithHook = function (elementBaseName, Handler) {
-    let skin = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'default';
+  const addHandlerWithHook = (elementBaseName, Handler, skin = 'default') => {
     skin = skin ? '.' + skin : '';
     const elementName = elementBaseName + skin;
     elementorFrontend.hooks.addAction(`frontend/element_ready/${elementName}`, $element => {
       if (isClassHandler(Handler)) {
-        _this.addHandler(Handler, {
+        this.addHandler(Handler, {
           $element,
           elementName
         }, true);
@@ -147,17 +131,16 @@ module.exports = function ($) {
           return;
         }
         if (handlerValue instanceof Promise) {
-          handlerValue.then(_ref => {
-            let {
-              default: dynamicHandler
-            } = _ref;
-            _this.addHandler(dynamicHandler, {
+          handlerValue.then(({
+            default: dynamicHandler
+          }) => {
+            this.addHandler(dynamicHandler, {
               $element,
               elementName
             }, true);
           });
         } else {
-          _this.addHandler(handlerValue, {
+          this.addHandler(handlerValue, {
             $element,
             elementName
           }, true);
@@ -198,10 +181,9 @@ module.exports = function ($) {
       return elementHandler;
     }
     return new Promise(res => {
-      elementHandler().then(_ref2 => {
-        let {
-          default: dynamicHandler
-        } = _ref2;
+      elementHandler().then(({
+        default: dynamicHandler
+      }) => {
         res(dynamicHandler);
       });
     });
@@ -283,8 +265,8 @@ var _utils = __webpack_require__(/*! elementor-frontend/utils/utils */ "../asset
 const EventManager = __webpack_require__(/*! elementor-utils/hooks */ "../assets/dev/js/utils/hooks.js"),
   ElementsHandler = __webpack_require__(/*! elementor-frontend/elements-handlers-manager */ "../assets/dev/js/frontend/elements-handlers-manager.js");
 class Frontend extends elementorModules.ViewModule {
-  constructor() {
-    super(...arguments);
+  constructor(...args) {
+    super(...args);
     this.config = elementorFrontendConfig;
     this.config.legacyMode = {
       /**
@@ -532,15 +514,13 @@ class Frontend extends elementorModules.ViewModule {
 
     // TODO: Use this instead.
     elementorFrontend.trigger('elementor/modules/init/before');
-    Object.entries(handlers).forEach(_ref => {
-      let [moduleName, ModuleClass] = _ref;
+    Object.entries(handlers).forEach(([moduleName, ModuleClass]) => {
       this.modulesHandlers[moduleName] = new ModuleClass();
     });
   }
   populateActiveBreakpointsConfig() {
     this.config.responsive.activeBreakpoints = {};
-    Object.entries(this.config.responsive.breakpoints).forEach(_ref2 => {
-      let [breakpointKey, breakpointData] = _ref2;
+    Object.entries(this.config.responsive.breakpoints).forEach(([breakpointKey, breakpointData]) => {
       if (breakpointData.is_enabled) {
         this.config.responsive.activeBreakpoints[breakpointKey] = breakpointData;
       }
@@ -579,467 +559,6 @@ if (!elementorFrontend.isEditMode()) {
 
 /***/ }),
 
-/***/ "../assets/dev/js/frontend/handlers/background-slideshow.js":
-/*!******************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/background-slideshow.js ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-__webpack_require__(/*! core-js/modules/esnext.iterator.constructor.js */ "../node_modules/core-js/modules/esnext.iterator.constructor.js");
-__webpack_require__(/*! core-js/modules/esnext.iterator.for-each.js */ "../node_modules/core-js/modules/esnext.iterator.for-each.js");
-class BackgroundSlideshow extends elementorModules.frontend.handlers.SwiperBase {
-  getDefaultSettings() {
-    return {
-      classes: {
-        swiperContainer: 'elementor-background-slideshow swiper',
-        swiperWrapper: 'swiper-wrapper',
-        swiperSlide: 'elementor-background-slideshow__slide swiper-slide',
-        swiperPreloader: 'swiper-lazy-preloader',
-        slideBackground: 'elementor-background-slideshow__slide__image',
-        kenBurns: 'elementor-ken-burns',
-        kenBurnsActive: 'elementor-ken-burns--active',
-        kenBurnsIn: 'elementor-ken-burns--in',
-        kenBurnsOut: 'elementor-ken-burns--out'
-      }
-    };
-  }
-  getSwiperOptions() {
-    const elementSettings = this.getElementSettings(),
-      swiperOptions = {
-        grabCursor: false,
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        loop: 'yes' === elementSettings.background_slideshow_loop,
-        speed: elementSettings.background_slideshow_transition_duration,
-        autoplay: {
-          delay: elementSettings.background_slideshow_slide_duration,
-          stopOnLastSlide: !elementSettings.background_slideshow_loop
-        },
-        handleElementorBreakpoints: true,
-        on: {
-          slideChange: () => {
-            if (elementSettings.background_slideshow_ken_burns) {
-              this.handleKenBurns();
-            }
-          }
-        }
-      };
-    if ('yes' === elementSettings.background_slideshow_loop) {
-      swiperOptions.loopedSlides = this.getSlidesCount();
-    }
-    switch (elementSettings.background_slideshow_slide_transition) {
-      case 'fade':
-        swiperOptions.effect = 'fade';
-        swiperOptions.fadeEffect = {
-          crossFade: true
-        };
-        break;
-      case 'slide_down':
-        swiperOptions.autoplay.reverseDirection = true;
-        swiperOptions.direction = 'vertical';
-        break;
-      case 'slide_up':
-        swiperOptions.direction = 'vertical';
-        break;
-    }
-    if ('yes' === elementSettings.background_slideshow_lazyload) {
-      swiperOptions.lazy = {
-        loadPrevNext: true,
-        loadPrevNextAmount: 1
-      };
-    }
-    return swiperOptions;
-  }
-  buildSwiperElements() {
-    const classes = this.getSettings('classes'),
-      elementSettings = this.getElementSettings(),
-      direction = 'slide_left' === elementSettings.background_slideshow_slide_transition ? 'ltr' : 'rtl',
-      $container = jQuery('<div>', {
-        class: classes.swiperContainer,
-        dir: direction
-      }),
-      $wrapper = jQuery('<div>', {
-        class: classes.swiperWrapper
-      }),
-      kenBurnsActive = elementSettings.background_slideshow_ken_burns,
-      lazyload = 'yes' === elementSettings.background_slideshow_lazyload;
-    let slideInnerClass = classes.slideBackground;
-    if (kenBurnsActive) {
-      slideInnerClass += ' ' + classes.kenBurns;
-      const kenBurnsDirection = 'in' === elementSettings.background_slideshow_ken_burns_zoom_direction ? 'kenBurnsIn' : 'kenBurnsOut';
-      slideInnerClass += ' ' + classes[kenBurnsDirection];
-    }
-    if (lazyload) {
-      slideInnerClass += ' swiper-lazy';
-    }
-    this.elements.$slides = jQuery();
-    elementSettings.background_slideshow_gallery.forEach(slide => {
-      const $slide = jQuery('<div>', {
-        class: classes.swiperSlide
-      });
-      let $slidebg;
-      if (lazyload) {
-        const $slideloader = jQuery('<div>', {
-          class: classes.swiperPreloader
-        });
-        $slidebg = jQuery('<div>', {
-          class: slideInnerClass,
-          'data-background': slide.url
-        });
-        $slidebg.append($slideloader);
-      } else {
-        $slidebg = jQuery('<div>', {
-          class: slideInnerClass,
-          style: 'background-image: url("' + slide.url + '");'
-        });
-      }
-      $slide.append($slidebg);
-      $wrapper.append($slide);
-      this.elements.$slides = this.elements.$slides.add($slide);
-    });
-    $container.append($wrapper);
-    this.$element.prepend($container);
-    this.elements.$backgroundSlideShowContainer = $container;
-  }
-  async initSlider() {
-    if (1 >= this.getSlidesCount()) {
-      return;
-    }
-    const elementSettings = this.getElementSettings();
-    const Swiper = elementorFrontend.utils.swiper;
-    this.swiper = await new Swiper(this.elements.$backgroundSlideShowContainer, this.getSwiperOptions());
-
-    // Expose the swiper instance in the frontend
-    this.elements.$backgroundSlideShowContainer.data('swiper', this.swiper);
-    if (elementSettings.background_slideshow_ken_burns) {
-      this.handleKenBurns();
-    }
-  }
-  activate() {
-    this.buildSwiperElements();
-    this.initSlider();
-  }
-  deactivate() {
-    if (this.swiper) {
-      this.swiper.destroy();
-      this.elements.$backgroundSlideShowContainer.remove();
-    }
-  }
-  run() {
-    if ('slideshow' === this.getElementSettings('background_background')) {
-      this.activate();
-    } else {
-      this.deactivate();
-    }
-  }
-  onInit() {
-    super.onInit();
-    if (this.getElementSettings('background_slideshow_gallery')) {
-      this.run();
-    }
-  }
-  onDestroy() {
-    super.onDestroy();
-    this.deactivate();
-  }
-  onElementChange(propertyName) {
-    if ('background_background' === propertyName) {
-      this.run();
-    }
-  }
-}
-exports["default"] = BackgroundSlideshow;
-
-/***/ }),
-
-/***/ "../assets/dev/js/frontend/handlers/background-video.js":
-/*!**************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/background-video.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-__webpack_require__(/*! core-js/modules/esnext.iterator.constructor.js */ "../node_modules/core-js/modules/esnext.iterator.constructor.js");
-__webpack_require__(/*! core-js/modules/esnext.iterator.find.js */ "../node_modules/core-js/modules/esnext.iterator.find.js");
-class BackgroundVideo extends elementorModules.frontend.handlers.Base {
-  getDefaultSettings() {
-    return {
-      selectors: {
-        backgroundVideoContainer: '.elementor-background-video-container',
-        backgroundVideoEmbed: '.elementor-background-video-embed',
-        backgroundVideoHosted: '.elementor-background-video-hosted'
-      }
-    };
-  }
-  getDefaultElements() {
-    const selectors = this.getSettings('selectors'),
-      elements = {
-        $backgroundVideoContainer: this.$element.find(selectors.backgroundVideoContainer)
-      };
-    elements.$backgroundVideoEmbed = elements.$backgroundVideoContainer.children(selectors.backgroundVideoEmbed);
-    elements.$backgroundVideoHosted = elements.$backgroundVideoContainer.children(selectors.backgroundVideoHosted);
-    return elements;
-  }
-  calcVideosSize($video) {
-    let aspectRatioSetting = '16:9';
-    if ('vimeo' === this.videoType) {
-      aspectRatioSetting = $video[0].width + ':' + $video[0].height;
-    }
-    const containerWidth = this.elements.$backgroundVideoContainer.outerWidth(),
-      containerHeight = this.elements.$backgroundVideoContainer.outerHeight(),
-      aspectRatioArray = aspectRatioSetting.split(':'),
-      aspectRatio = aspectRatioArray[0] / aspectRatioArray[1],
-      ratioWidth = containerWidth / aspectRatio,
-      ratioHeight = containerHeight * aspectRatio,
-      isWidthFixed = containerWidth / containerHeight > aspectRatio;
-    return {
-      width: isWidthFixed ? containerWidth : ratioHeight,
-      height: isWidthFixed ? ratioWidth : containerHeight
-    };
-  }
-  changeVideoSize() {
-    if (!('hosted' === this.videoType) && !this.player) {
-      return;
-    }
-    let $video;
-    if ('youtube' === this.videoType) {
-      $video = jQuery(this.player.getIframe());
-    } else if ('vimeo' === this.videoType) {
-      $video = jQuery(this.player.element);
-    } else if ('hosted' === this.videoType) {
-      $video = this.elements.$backgroundVideoHosted;
-    }
-    if (!$video) {
-      return;
-    }
-    const size = this.calcVideosSize($video);
-    $video.width(size.width).height(size.height);
-  }
-  startVideoLoop(firstTime) {
-    // If the section has been removed
-    if (!this.player.getIframe().contentWindow) {
-      return;
-    }
-    const elementSettings = this.getElementSettings(),
-      startPoint = elementSettings.background_video_start || 0,
-      endPoint = elementSettings.background_video_end;
-    if (elementSettings.background_play_once && !firstTime) {
-      this.player.stopVideo();
-      return;
-    }
-    this.player.seekTo(startPoint);
-    if (endPoint) {
-      const durationToEnd = endPoint - startPoint + 1;
-      setTimeout(() => {
-        this.startVideoLoop(false);
-      }, durationToEnd * 1000);
-    }
-  }
-  prepareVimeoVideo(Vimeo, videoLink) {
-    const elementSettings = this.getElementSettings(),
-      videoSize = this.elements.$backgroundVideoContainer.outerWidth(),
-      vimeoOptions = {
-        url: videoLink,
-        width: videoSize.width,
-        autoplay: true,
-        loop: !elementSettings.background_play_once,
-        transparent: true,
-        background: true,
-        muted: true
-      };
-    if (elementSettings.background_privacy_mode) {
-      vimeoOptions.dnt = true;
-    }
-    this.player = new Vimeo.Player(this.elements.$backgroundVideoContainer, vimeoOptions);
-
-    // Handle user-defined start/end times
-    this.handleVimeoStartEndTimes(elementSettings);
-    this.player.ready().then(() => {
-      jQuery(this.player.element).addClass('elementor-background-video-embed');
-      this.changeVideoSize();
-    });
-  }
-  handleVimeoStartEndTimes(elementSettings) {
-    // If a start time is defined, set the start time
-    if (elementSettings.background_video_start) {
-      this.player.on('play', data => {
-        if (0 === data.seconds) {
-          this.player.setCurrentTime(elementSettings.background_video_start);
-        }
-      });
-    }
-    this.player.on('timeupdate', data => {
-      // If an end time is defined, handle ending the video
-      if (elementSettings.background_video_end && elementSettings.background_video_end < data.seconds) {
-        if (elementSettings.background_play_once) {
-          // Stop at user-defined end time if not loop
-          this.player.pause();
-        } else {
-          // Go to start time if loop
-          this.player.setCurrentTime(elementSettings.background_video_start);
-        }
-      }
-
-      // If start time is defined but an end time is not, go to user-defined start time at video end.
-      // Vimeo JS API has an 'ended' event, but it never fires when infinite loop is defined, so we
-      // get the video duration (returns a promise) then use duration-0.5s as end time
-      this.player.getDuration().then(duration => {
-        if (elementSettings.background_video_start && !elementSettings.background_video_end && data.seconds > duration - 0.5) {
-          this.player.setCurrentTime(elementSettings.background_video_start);
-        }
-      });
-    });
-  }
-  prepareYTVideo(YT, videoID) {
-    const $backgroundVideoContainer = this.elements.$backgroundVideoContainer,
-      elementSettings = this.getElementSettings();
-    let startStateCode = YT.PlayerState.PLAYING;
-
-    // Since version 67, Chrome doesn't fire the `PLAYING` state at start time
-    if (window.chrome) {
-      startStateCode = YT.PlayerState.UNSTARTED;
-    }
-    const playerOptions = {
-      videoId: videoID,
-      events: {
-        onReady: () => {
-          this.player.mute();
-          this.changeVideoSize();
-          this.startVideoLoop(true);
-          this.player.playVideo();
-        },
-        onStateChange: event => {
-          switch (event.data) {
-            case startStateCode:
-              $backgroundVideoContainer.removeClass('elementor-invisible elementor-loading');
-              break;
-            case YT.PlayerState.ENDED:
-              if ('function' === typeof this.player.seekTo) {
-                this.player.seekTo(elementSettings.background_video_start || 0);
-              }
-              if (elementSettings.background_play_once) {
-                this.player.destroy();
-              }
-          }
-        }
-      },
-      playerVars: {
-        controls: 0,
-        rel: 0,
-        playsinline: 1,
-        cc_load_policy: 0
-      }
-    };
-
-    // To handle CORS issues, when the default host is changed, the origin parameter has to be set.
-    if (elementSettings.background_privacy_mode) {
-      playerOptions.host = 'https://www.youtube-nocookie.com';
-      playerOptions.origin = window.location.hostname;
-    }
-    $backgroundVideoContainer.addClass('elementor-loading elementor-invisible');
-    this.player = new YT.Player(this.elements.$backgroundVideoEmbed[0], playerOptions);
-  }
-  activate() {
-    let videoLink = this.getElementSettings('background_video_link'),
-      videoID;
-    const playOnce = this.getElementSettings('background_play_once');
-    if (-1 !== videoLink.indexOf('vimeo.com')) {
-      this.videoType = 'vimeo';
-      this.apiProvider = elementorFrontend.utils.vimeo;
-    } else if (videoLink.match(/^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com)/)) {
-      this.videoType = 'youtube';
-      this.apiProvider = elementorFrontend.utils.youtube;
-    }
-    if (this.apiProvider) {
-      videoID = this.apiProvider.getVideoIDFromURL(videoLink);
-      this.apiProvider.onApiReady(apiObject => {
-        if ('youtube' === this.videoType) {
-          this.prepareYTVideo(apiObject, videoID);
-        }
-        if ('vimeo' === this.videoType) {
-          this.prepareVimeoVideo(apiObject, videoLink);
-        }
-      });
-    } else {
-      this.videoType = 'hosted';
-      const startTime = this.getElementSettings('background_video_start'),
-        endTime = this.getElementSettings('background_video_end');
-      if (startTime || endTime) {
-        videoLink += '#t=' + (startTime || 0) + (endTime ? ',' + endTime : '');
-      }
-      this.elements.$backgroundVideoHosted.attr('src', videoLink).one('canplay', this.changeVideoSize.bind(this));
-      if (playOnce) {
-        this.elements.$backgroundVideoHosted.on('ended', () => {
-          this.elements.$backgroundVideoHosted.hide();
-        });
-      }
-    }
-    elementorFrontend.elements.$window.on('resize elementor/bg-video/recalc', this.changeVideoSize);
-  }
-  deactivate() {
-    if ('youtube' === this.videoType && this.player.getIframe() || 'vimeo' === this.videoType) {
-      this.player.destroy();
-    } else {
-      this.elements.$backgroundVideoHosted.removeAttr('src').off('ended');
-    }
-    elementorFrontend.elements.$window.off('resize', this.changeVideoSize);
-  }
-  run() {
-    const elementSettings = this.getElementSettings();
-    if (!elementSettings.background_play_on_mobile && 'mobile' === elementorFrontend.getCurrentDeviceMode()) {
-      return;
-    }
-    if ('video' === elementSettings.background_background && elementSettings.background_video_link) {
-      this.activate();
-    } else {
-      this.deactivate();
-    }
-  }
-  onInit() {
-    super.onInit(...arguments);
-    this.changeVideoSize = this.changeVideoSize.bind(this);
-    this.run();
-  }
-  onElementChange(propertyName) {
-    if ('background_background' === propertyName) {
-      this.run();
-    }
-  }
-}
-exports["default"] = BackgroundVideo;
-
-/***/ }),
-
-/***/ "../assets/dev/js/frontend/handlers/background.js":
-/*!********************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/background.js ***!
-  \********************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-var _backgroundSlideshow = _interopRequireDefault(__webpack_require__(/*! ./background-slideshow */ "../assets/dev/js/frontend/handlers/background-slideshow.js"));
-var _backgroundVideo = _interopRequireDefault(__webpack_require__(/*! ./background-video */ "../assets/dev/js/frontend/handlers/background-video.js"));
-var _default = exports["default"] = [_backgroundSlideshow.default, _backgroundVideo.default];
-
-/***/ }),
-
 /***/ "../assets/dev/js/frontend/handlers/column.js":
 /*!****************************************************!*\
   !*** ../assets/dev/js/frontend/handlers/column.js ***!
@@ -1048,13 +567,11 @@ var _default = exports["default"] = [_backgroundSlideshow.default, _backgroundVi
 
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-var _backgroundSlideshow = _interopRequireDefault(__webpack_require__(/*! ./background-slideshow */ "../assets/dev/js/frontend/handlers/background-slideshow.js"));
-var _default = exports["default"] = [_backgroundSlideshow.default];
+var _default = exports["default"] = [() => __webpack_require__.e(/*! import() | shared-frontend-handlers */ "shared-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ./background-slideshow */ "../assets/dev/js/frontend/handlers/background-slideshow.js"))];
 
 /***/ }),
 
@@ -1070,7 +587,32 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-var _default = exports["default"] = [() => __webpack_require__.e(/*! import() | container */ "container").then(__webpack_require__.bind(__webpack_require__, /*! ./handles-position */ "../assets/dev/js/frontend/handlers/container/handles-position.js")), () => __webpack_require__.e(/*! import() | container */ "container").then(__webpack_require__.bind(__webpack_require__, /*! ./shapes */ "../assets/dev/js/frontend/handlers/container/shapes.js")), () => __webpack_require__.e(/*! import() | container */ "container").then(__webpack_require__.bind(__webpack_require__, /*! ./grid-container */ "../assets/dev/js/frontend/handlers/container/grid-container.js"))];
+var _createEditorHandler = __webpack_require__(/*! ../create-editor-handler */ "../assets/dev/js/frontend/handlers/create-editor-handler.js");
+var _default = exports["default"] = [() => __webpack_require__.e(/*! import() | shared-frontend-handlers */ "shared-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../background-slideshow */ "../assets/dev/js/frontend/handlers/background-slideshow.js")), () => __webpack_require__.e(/*! import() | shared-frontend-handlers */ "shared-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../background-video */ "../assets/dev/js/frontend/handlers/background-video.js")), (0, _createEditorHandler.createEditorHandler)(() => __webpack_require__.e(/*! import() | shared-editor-handlers */ "shared-editor-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../handles-position */ "../assets/dev/js/frontend/handlers/handles-position.js"))), (0, _createEditorHandler.createEditorHandler)(() => __webpack_require__.e(/*! import() | container-editor-handlers */ "container-editor-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ./shapes */ "../assets/dev/js/frontend/handlers/container/shapes.js"))), (0, _createEditorHandler.createEditorHandler)(() => __webpack_require__.e(/*! import() | container-editor-handlers */ "container-editor-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ./grid-container */ "../assets/dev/js/frontend/handlers/container/grid-container.js")))];
+
+/***/ }),
+
+/***/ "../assets/dev/js/frontend/handlers/create-editor-handler.js":
+/*!*******************************************************************!*\
+  !*** ../assets/dev/js/frontend/handlers/create-editor-handler.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports.createEditorHandler = createEditorHandler;
+function createEditorHandler(importer) {
+  return () => {
+    return new Promise(resolve => {
+      if (elementorFrontend.isEditMode()) {
+        importer().then(resolve);
+      }
+    });
+  };
+}
 
 /***/ }),
 
@@ -1111,8 +653,8 @@ class GlobalHandler extends elementorModules.frontend.handlers.Base {
   getAnimation() {
     return this.getCurrentDeviceSetting('animation') || this.getCurrentDeviceSetting('_animation');
   }
-  onInit() {
-    super.onInit(...arguments);
+  onInit(...args) {
+    super.onInit(...args);
     if (this.getAnimation()) {
       const observer = elementorModules.utils.Scroll.scrollObserver({
         callback: event => {
@@ -1140,10 +682,10 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ "../assets/dev/js/frontend/handlers/section/handles-position.js":
-/*!**********************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/section/handles-position.js ***!
-  \**********************************************************************/
+/***/ "../assets/dev/js/frontend/handlers/section/section.js":
+/*!*************************************************************!*\
+  !*** ../assets/dev/js/frontend/handlers/section/section.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1152,181 +694,10 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-__webpack_require__(/*! core-js/modules/esnext.iterator.constructor.js */ "../node_modules/core-js/modules/esnext.iterator.constructor.js");
-__webpack_require__(/*! core-js/modules/esnext.iterator.find.js */ "../node_modules/core-js/modules/esnext.iterator.find.js");
-class HandlesPosition extends elementorModules.frontend.handlers.Base {
-  isActive() {
-    return elementorFrontend.isEditMode();
-  }
-  isFirstSection() {
-    return this.$element[0] === document.querySelector('.elementor-edit-mode .elementor-top-section');
-  }
-  isOverflowHidden() {
-    return 'hidden' === this.$element.css('overflow');
-  }
-  getOffset() {
-    if ('body' === elementor.config.document.container) {
-      return this.$element.offset().top;
-    }
-    const $container = jQuery(elementor.config.document.container);
-    return this.$element.offset().top - $container.offset().top;
-  }
-  setHandlesPosition() {
-    const document = elementor.documents.getCurrent();
-    if (!document || !document.container.isEditable()) {
-      return;
-    }
-    const insideHandleClass = 'elementor-section--handles-inside';
-    if (elementor.settings.page.model.attributes.scroll_snap) {
-      this.$element.addClass(insideHandleClass);
-      return;
-    }
-    const isOverflowHidden = this.isOverflowHidden();
-    if (!isOverflowHidden && !this.isFirstSection()) {
-      return;
-    }
-    const offset = isOverflowHidden ? 0 : this.getOffset();
-    if (offset < 25) {
-      this.$element.addClass(insideHandleClass);
-      const $handlesElement = this.$element.find('> .elementor-element-overlay > .elementor-editor-section-settings');
-      if (offset < -5) {
-        $handlesElement.css('top', -offset);
-      } else {
-        $handlesElement.css('top', '');
-      }
-    } else {
-      this.$element.removeClass(insideHandleClass);
-    }
-  }
-  onInit() {
-    if (!this.isActive()) {
-      return;
-    }
-    this.setHandlesPosition();
-    this.$element.on('mouseenter', this.setHandlesPosition.bind(this));
-  }
-}
-exports["default"] = HandlesPosition;
-
-/***/ }),
-
-/***/ "../assets/dev/js/frontend/handlers/section/shapes.js":
-/*!************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/section/shapes.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-__webpack_require__(/*! core-js/modules/esnext.iterator.constructor.js */ "../node_modules/core-js/modules/esnext.iterator.constructor.js");
-__webpack_require__(/*! core-js/modules/esnext.iterator.find.js */ "../node_modules/core-js/modules/esnext.iterator.find.js");
-class Shapes extends elementorModules.frontend.handlers.Base {
-  getDefaultSettings() {
-    return {
-      selectors: {
-        container: '> .elementor-shape-%s'
-      },
-      svgURL: elementorFrontend.config.urls.assets + 'shapes/'
-    };
-  }
-  getDefaultElements() {
-    const elements = {},
-      selectors = this.getSettings('selectors');
-    elements.$topContainer = this.$element.find(selectors.container.replace('%s', 'top'));
-    elements.$bottomContainer = this.$element.find(selectors.container.replace('%s', 'bottom'));
-    return elements;
-  }
-  isActive() {
-    return elementorFrontend.isEditMode();
-  }
-  getSvgURL(shapeType, fileName) {
-    let svgURL = this.getSettings('svgURL') + fileName + '.svg';
-    if (elementor.config.additional_shapes && shapeType in elementor.config.additional_shapes) {
-      svgURL = elementor.config.additional_shapes[shapeType];
-      if (-1 < fileName.indexOf('-negative')) {
-        svgURL = svgURL.replace('.svg', '-negative.svg');
-      }
-    }
-    return svgURL;
-  }
-  buildSVG(side) {
-    const baseSettingKey = 'shape_divider_' + side,
-      shapeType = this.getElementSettings(baseSettingKey),
-      $svgContainer = this.elements['$' + side + 'Container'];
-    $svgContainer.attr('data-shape', shapeType);
-    if (!shapeType) {
-      $svgContainer.empty(); // Shape-divider set to 'none'
-      return;
-    }
-    let fileName = shapeType;
-    if (this.getElementSettings(baseSettingKey + '_negative')) {
-      fileName += '-negative';
-    }
-    const svgURL = this.getSvgURL(shapeType, fileName);
-    jQuery.get(svgURL, data => {
-      $svgContainer.empty().append(data.childNodes[0]);
-    });
-    this.setNegative(side);
-  }
-  setNegative(side) {
-    this.elements['$' + side + 'Container'].attr('data-negative', !!this.getElementSettings('shape_divider_' + side + '_negative'));
-  }
-  onInit() {
-    if (!this.isActive(this.getSettings())) {
-      return;
-    }
-    super.onInit(...arguments);
-    ['top', 'bottom'].forEach(side => {
-      if (this.getElementSettings('shape_divider_' + side)) {
-        this.buildSVG(side);
-      }
-    });
-  }
-  onElementChange(propertyName) {
-    const shapeChange = propertyName.match(/^shape_divider_(top|bottom)$/);
-    if (shapeChange) {
-      this.buildSVG(shapeChange[1]);
-      return;
-    }
-    const negativeChange = propertyName.match(/^shape_divider_(top|bottom)_negative$/);
-    if (negativeChange) {
-      this.buildSVG(negativeChange[1]);
-      this.setNegative(negativeChange[1]);
-    }
-  }
-}
-exports["default"] = Shapes;
-
-/***/ }),
-
-/***/ "../assets/dev/js/frontend/handlers/section/stretched-section.js":
-/*!***********************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/section/stretched-section.js ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-class StretchedSection extends elementorModules.frontend.handlers.StretchedElement {
-  getStretchedClass() {
-    return 'elementor-section-stretched';
-  }
-  getStretchSettingName() {
-    return 'stretch_section';
-  }
-  getStretchActiveValue() {
-    return 'section-stretched';
-  }
-}
-exports["default"] = StretchedSection;
+var _createEditorHandler = __webpack_require__(/*! ../create-editor-handler */ "../assets/dev/js/frontend/handlers/create-editor-handler.js");
+var _default = exports["default"] = [() => __webpack_require__.e(/*! import() | section-frontend-handlers */ "section-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ./stretched-section */ "../assets/dev/js/frontend/handlers/section/stretched-section.js")),
+// Must run before BackgroundSlideshow to init the slideshow only after the stretch.
+() => __webpack_require__.e(/*! import() | shared-frontend-handlers */ "shared-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../background-slideshow */ "../assets/dev/js/frontend/handlers/background-slideshow.js")), () => __webpack_require__.e(/*! import() | shared-frontend-handlers */ "shared-frontend-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../background-video */ "../assets/dev/js/frontend/handlers/background-video.js")), (0, _createEditorHandler.createEditorHandler)(() => __webpack_require__.e(/*! import() | shared-editor-handlers */ "shared-editor-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ../handles-position */ "../assets/dev/js/frontend/handlers/handles-position.js"))), (0, _createEditorHandler.createEditorHandler)(() => __webpack_require__.e(/*! import() | section-editor-handlers */ "section-editor-handlers").then(__webpack_require__.bind(__webpack_require__, /*! ./shapes */ "../assets/dev/js/frontend/handlers/section/shapes.js")))];
 
 /***/ }),
 
@@ -1542,7 +913,6 @@ AssetsLoader.assets = {
     }
   },
   style: {
-    // TODO: Remove 'swiper' in v3.28.0 [ED-16258].
     swiper: {
       src: `${assetsUrl}lib/swiper/v8/css/swiper${fileSuffix}.css?ver=8.4.5`,
       parent: 'head'
@@ -1609,9 +979,7 @@ class Controls {
    * @param {string} device          If we want to get a value for a specific device mode.
    * @return {*} Control Value
    */
-  getResponsiveControlValue(controlSettings, controlKey) {
-    let controlSubKey = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
-    let device = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
+  getResponsiveControlValue(controlSettings, controlKey, controlSubKey = '', device = null) {
     const currentDeviceMode = device || elementorFrontend.getCurrentDeviceMode(),
       controlValueDesktop = this.getControlValue(controlSettings, controlKey, controlSubKey);
 
@@ -1669,18 +1037,14 @@ __webpack_require__(/*! core-js/modules/esnext.iterator.find.js */ "../node_modu
 class LightboxManager extends elementorModules.ViewModule {
   static getLightbox() {
     const lightboxPromise = new Promise(resolveLightbox => {
-        __webpack_require__.e(/*! import() | lightbox */ "lightbox").then(__webpack_require__.t.bind(__webpack_require__, /*! elementor-frontend/utils/lightbox/lightbox */ "../assets/dev/js/frontend/utils/lightbox/lightbox.js", 23)).then(_ref => {
-          let {
-            default: LightboxModule
-          } = _ref;
-          return resolveLightbox(new LightboxModule());
-        });
+        Promise.all(/*! import() | lightbox */[__webpack_require__.e("vendors-node_modules_dompurify_dist_purify_cjs_js"), __webpack_require__.e("lightbox")]).then(__webpack_require__.t.bind(__webpack_require__, /*! elementor-frontend/utils/lightbox/lightbox */ "../assets/dev/js/frontend/utils/lightbox/lightbox.js", 23)).then(({
+          default: LightboxModule
+        }) => resolveLightbox(new LightboxModule()));
       }),
       dialogScriptPromise = elementorFrontend.utils.assetsLoader.load('script', 'dialog'),
       dialogStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'dialog'),
       shareLinkPromise = elementorFrontend.utils.assetsLoader.load('script', 'share-link'),
       swiperStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'swiper'),
-      // TODO: Remove in v3.28.0 [ED-16258].
       lightboxStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'e-lightbox');
     return Promise.all([lightboxPromise, dialogScriptPromise, dialogStylePromise, shareLinkPromise, swiperStylePromise, lightboxStylePromise]).then(() => lightboxPromise);
   }
@@ -1700,7 +1064,7 @@ class LightboxManager extends elementorModules.ViewModule {
   }
   isLightboxLink(element) {
     // Check for lowercase `a` to make sure it works also for links inside SVGs.
-    if ('a' === element.tagName.toLowerCase() && (element.hasAttribute('download') || !/^[^?]+\.(png|jpe?g|gif|svg|webp)(\?.*)?$/i.test(element.href)) && !element.dataset.elementorLightboxVideo) {
+    if ('a' === element.tagName.toLowerCase() && (element.hasAttribute('download') || !/^[^?]+\.(png|jpe?g|gif|svg|webp|avif)(\?.*)?$/i.test(element.href)) && !element.dataset.elementorLightboxVideo) {
       return false;
     }
     const generalOpenInLightbox = elementorFrontend.getKitSettings('global_image_lightbox'),
@@ -1737,8 +1101,8 @@ class LightboxManager extends elementorModules.ViewModule {
   bindEvents() {
     elementorFrontend.elements.$document.on('click', this.getSettings('selectors.links'), event => this.onLinkClick(event));
   }
-  onInit() {
-    super.onInit(...arguments);
+  onInit(...args) {
+    super.onInit(...args);
     if (elementorFrontend.isEditMode()) {
       return;
     }
@@ -1803,6 +1167,7 @@ class SwiperHandler {
   createSwiperInstance(container, config) {
     const SwiperSource = window.Swiper;
     SwiperSource.prototype.adjustConfig = this.adjustConfig;
+    config = this.applyMotionPreferences(config);
     return new SwiperSource(container, config);
   }
 
@@ -1848,6 +1213,16 @@ class SwiperHandler {
       };
     });
     return config;
+  }
+  applyMotionPreferences(config) {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion) {
+      return config;
+    }
+    return Object.assign({}, config, {
+      speed: 0,
+      autoplay: false
+    });
   }
 }
 exports["default"] = SwiperHandler;
@@ -1898,7 +1273,7 @@ class _default extends elementorModules.ViewModule {
   addAction(name, callback) {
     this.actions[name] = callback;
   }
-  runAction(url) {
+  runAction(url, ...restArgs) {
     url = decodeURI(url);
     url = decodeURIComponent(url);
     const actionMatch = url.match(/action=(.+?)&/);
@@ -1915,9 +1290,6 @@ class _default extends elementorModules.ViewModule {
       settings = JSON.parse(atob(settingsMatch[1]));
     }
     settings.previousEvent = event;
-    for (var _len = arguments.length, restArgs = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      restArgs[_key - 1] = arguments[_key];
-    }
     action(settings, ...restArgs);
   }
   runLinkAction(event) {
@@ -2163,8 +1535,7 @@ class Breakpoints extends elementorModules.Module {
    *
    * @param {Object} args
    */
-  getActiveBreakpointsList() {
-    let args = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  getActiveBreakpointsList(args = {}) {
     const defaultArgs = {
       largeToSmall: false,
       withDesktop: false
@@ -2333,9 +1704,7 @@ class Events {
    *
    * @return {void}
    */
-  static dispatch(context, event) {
-    let data = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-    let bcEvent = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
+  static dispatch(context, event, data = null, bcEvent = null) {
     // Make sure to use the native context if it's a jQuery instance.
     context = context instanceof jQuery ? context[0] : context;
 
@@ -2765,7 +2134,7 @@ exports["default"] = void 0;
 class _default extends elementorModules.Module {
   constructor() {
     super();
-    elementorFrontend.elementsHandler.attachHandler('text-path', () => __webpack_require__.e(/*! import() | text-path */ "text-path").then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/text-path */ "../modules/shapes/assets/js/frontend/handlers/text-path.js")));
+    elementorFrontend.elementsHandler.attachHandler('text-path', () => Promise.all(/*! import() | text-path */[__webpack_require__.e("vendors-node_modules_dompurify_dist_purify_cjs_js"), __webpack_require__.e("text-path")]).then(__webpack_require__.bind(__webpack_require__, /*! ./handlers/text-path */ "../modules/shapes/assets/js/frontend/handlers/text-path.js")));
   }
 }
 exports["default"] = _default;
@@ -2921,40 +2290,6 @@ module.exports = function (argument) {
 
 /***/ }),
 
-/***/ "../node_modules/core-js/internals/iterator-map.js":
-/*!*********************************************************!*\
-  !*** ../node_modules/core-js/internals/iterator-map.js ***!
-  \*********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-
-var call = __webpack_require__(/*! ../internals/function-call */ "../node_modules/core-js/internals/function-call.js");
-var aCallable = __webpack_require__(/*! ../internals/a-callable */ "../node_modules/core-js/internals/a-callable.js");
-var anObject = __webpack_require__(/*! ../internals/an-object */ "../node_modules/core-js/internals/an-object.js");
-var getIteratorDirect = __webpack_require__(/*! ../internals/get-iterator-direct */ "../node_modules/core-js/internals/get-iterator-direct.js");
-var createIteratorProxy = __webpack_require__(/*! ../internals/iterator-create-proxy */ "../node_modules/core-js/internals/iterator-create-proxy.js");
-var callWithSafeIterationClosing = __webpack_require__(/*! ../internals/call-with-safe-iteration-closing */ "../node_modules/core-js/internals/call-with-safe-iteration-closing.js");
-
-var IteratorProxy = createIteratorProxy(function () {
-  var iterator = this.iterator;
-  var result = anObject(call(this.next, iterator));
-  var done = this.done = !!result.done;
-  if (!done) return callWithSafeIterationClosing(iterator, this.mapper, [result.value, this.counter++], true);
-});
-
-// `Iterator.prototype.map` method
-// https://github.com/tc39/proposal-iterator-helpers
-module.exports = function map(mapper) {
-  anObject(this);
-  aCallable(mapper);
-  return new IteratorProxy(getIteratorDirect(this), {
-    mapper: mapper
-  });
-};
-
-
-/***/ }),
-
 /***/ "../node_modules/core-js/internals/normalize-string-argument.js":
 /*!**********************************************************************!*\
   !*** ../node_modules/core-js/internals/normalize-string-argument.js ***!
@@ -3025,39 +2360,6 @@ module.exports = function (argument) {
   if (classof(argument) === 'Symbol') throw new TypeError('Cannot convert a Symbol value to a string');
   return $String(argument);
 };
-
-
-/***/ }),
-
-/***/ "../node_modules/core-js/modules/es.iterator.map.js":
-/*!**********************************************************!*\
-  !*** ../node_modules/core-js/modules/es.iterator.map.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-
-var $ = __webpack_require__(/*! ../internals/export */ "../node_modules/core-js/internals/export.js");
-var map = __webpack_require__(/*! ../internals/iterator-map */ "../node_modules/core-js/internals/iterator-map.js");
-var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "../node_modules/core-js/internals/is-pure.js");
-
-// `Iterator.prototype.map` method
-// https://tc39.es/ecma262/#sec-iterator.prototype.map
-$({ target: 'Iterator', proto: true, real: true, forced: IS_PURE }, {
-  map: map
-});
-
-
-/***/ }),
-
-/***/ "../node_modules/core-js/modules/esnext.iterator.map.js":
-/*!**************************************************************!*\
-  !*** ../node_modules/core-js/modules/esnext.iterator.map.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-
-// TODO: Remove from `core-js@4`
-__webpack_require__(/*! ../modules/es.iterator.map */ "../node_modules/core-js/modules/es.iterator.map.js");
 
 
 /***/ }),

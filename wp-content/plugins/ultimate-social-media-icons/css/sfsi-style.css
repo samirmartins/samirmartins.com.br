@@ -4023,3 +4023,7 @@ amp-facebook-like{
         opacity: 0;
     }
 }
+
+.sfsi_Sicons .sf_icon a {
+    display: flex !important;
+}
